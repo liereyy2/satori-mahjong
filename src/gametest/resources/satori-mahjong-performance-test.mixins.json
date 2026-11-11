@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "cn.satori.mahjong.performance",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ServerTickProbe"],
+  "client": ["TilePassProbe", "BenchmarkWindowProbe"],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,167 @@
+plugins {
+    id 'fabric-loom' version '1.14.10'
+}
+version = project.mod_version
+group = project.maven_group
+base { archivesName = 'satori-mahjong-fabric' }
+apply from: 'gradle/tile-assets.gradle'
+apply from: 'gradle/language-assets.gradle'
+apply from: 'gradle/release-cleanup.gradle'
+repositories { mavenCentral() }
+loom {
+    splitEnvironmentSourceSets()
+    mods { satori_mahjong { sourceSet sourceSets.main; sourceSet sourceSets.client } }
+}
+sourceSets {
+    main {
+        java.srcDir 'src/fabric/java'
+        resources.srcDir 'src/fabric/resources'
+    }
+    client.java.srcDir 'src/fabricClient/java'
+}
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand version: project.version }
+}
+java { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21; withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+test { useJUnitPlatform(); systemProperty 'java.io.tmpdir', layout.buildDirectory.dir('tmp/test').get().asFile.absolutePath; doFirst { layout.buildDirectory.dir('tmp/test').get().asFile.mkdirs() } }
+processTestResources { from('src/gametest/resources') { include '*.json'; exclude 'fabric.mod.json' } }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+
+fabricApi.configureTests {
+    createSourceSet = true
+    modId = 'satori_mahjong_test'
+    enableGameTests = false
+    enableClientGameTests = true
+    eula = false
+}
+sourceSets.gametest.java.srcDir 'src/testFixtures/java'
+
+// Keep all temporary runtime data inside this project, including native extraction.
+tasks.withType(JavaExec).configureEach {
+    systemProperty 'java.io.tmpdir', layout.buildDirectory.dir('tmp/runtime').get().asFile.absolutePath
+    doFirst { layout.buildDirectory.dir('tmp/runtime').get().asFile.mkdirs() }
+}
+
+// Validate the same remapped JAR that players install, with a separate test-only mod.
+configurations { productionTestMods }
+dependencies {
+    productionTestMods "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+def clientTestJar = tasks.register('clientTestJar', Jar) {
+    archiveClassifier = 'client-test-dev'
+    from sourceSets.gametest.output
+}
+def remapClientTestJar = tasks.register('remapClientTestJar', net.fabricmc.loom.task.RemapJarTask) {
+    inputFile = clientTestJar.flatMap { it.archiveFile }
+    archiveClassifier = 'client-test'
+    classpath.from sourceSets.gametest.compileClasspath
+}
+tasks.register('runProductionClientTest', net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    mods.from tasks.remapJar, remapClientTestJar, configurations.productionTestMods
+    runDir = layout.buildDirectory.dir('run/productionClientTest')
+    useXVFB = false
+    // Exercise real asynchronous packet delivery; Fabric's synthetic packet barrier stalls
+    // world loading for this HTTP/WebSocket-backed integration test.
+    jvmArgs.addAll '-Dfabric.client.gametest', '-Dfabric.client.gametest.disableNetworkSynchronizer', "-Djava.io.tmpdir=${layout.buildDirectory.dir('tmp/runtime').get().asFile.absolutePath}"
+    doFirst { layout.buildDirectory.dir('tmp/runtime').get().asFile.mkdirs() }
+}
+tasks.register('runTablePerformance', net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    group = 'verification'
+    description = 'Measure native 1080p tile-pass CPU/GPU and idle-server ticks for 0/1/4/16 tables.'
+    mods.from tasks.remapJar, remapClientTestJar, configurations.productionTestMods
+    runDir = layout.buildDirectory.dir('run/tablePerformance')
+    useXVFB = false
+    jvmArgs.addAll '-Dfabric.client.gametest', '-Dfabric.client.gametest.disableNetworkSynchronizer',
+            "-Dsatori.performance.report=${layout.buildDirectory.file('run/tablePerformance/performance.json').get().asFile.absolutePath}",
+            "-Djava.io.tmpdir=${layout.buildDirectory.dir('tmp/runtime').get().asFile.absolutePath}"
+    doFirst { layout.buildDirectory.dir('tmp/runtime').get().asFile.mkdirs() }
+}
+tasks.register('runProjectionPerformance', JavaExec) {
+    group = 'verification'
+    description = 'Measure metadata copying and real Rust observer packet serialization, separately from TPS.'
+    dependsOn tasks.gametestClasses
+    classpath = sourceSets.gametest.runtimeClasspath
+    mainClass = 'cn.satori.mahjong.protocol.HostedProjectionPerformance'
+    args layout.buildDirectory.file('run/projection-performance.json').get().asFile.absolutePath
+    doFirst { layout.buildDirectory.dir('run').get().asFile.mkdirs() }
+}
+tasks.register('runProductionServerTest', net.fabricmc.loom.task.prod.ServerProductionRunTask) {
+    mods.from tasks.remapJar, remapClientTestJar, configurations.productionTestMods
+    runDir = layout.buildDirectory.dir('run/productionServerTest')
+    def report = layout.buildDirectory.file('run/productionServerTest/verification.json')
+    jvmArgs.addAll "-Dsatori.smoke.report=${report.get().asFile.absolutePath}", "-Djava.io.tmpdir=${layout.buildDirectory.dir('tmp/runtime').get().asFile.absolutePath}"
+    doFirst {
+        if (providers.gradleProperty('acceptMinecraftEula').getOrElse('false') != 'true')
+            throw new GradleException('Read https://aka.ms/MinecraftEULA and pass -PacceptMinecraftEula=true for this isolated test server.')
+        def directory = runDir.get().asFile
+        directory.mkdirs()
+        new File(directory, 'eula.txt').text = 'eula=true\n'
+        new File(directory, 'server.properties').text = 'server-ip=127.0.0.1\nserver-port=25597\nonline-mode=false\nview-distance=2\nsimulation-distance=2\n'
+        report.get().asFile.delete()
+        layout.buildDirectory.dir('tmp/runtime').get().asFile.mkdirs()
+    }
+    doLast {
+        if (!report.get().asFile.isFile() || new groovy.json.JsonSlurper().parse(report.get().asFile).status != 'passed')
+            throw new GradleException('Fabric dedicated server verification failed.')
+    }
+}
+
+// Each loader keeps its native toolchain. This task builds and tests both, then
+// publishes only the explicitly named installable JARs into one local directory.
+def buildForge = tasks.register('buildForge', Exec) {
+    dependsOn tasks.build
+    workingDir layout.projectDirectory.dir('forge')
+    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+        commandLine 'cmd', '/c', 'gradlew.bat', '--no-daemon', 'build'
+    } else {
+        commandLine './gradlew', '--no-daemon', 'build'
+    }
+}
+tasks.register('buildAll') {
+    group = 'build'
+    description = 'Build, unit-test and collect the Minecraft 1.21.11 Fabric and Forge release JARs.'
+    dependsOn buildForge
+    doLast {
+        def targets = [
+            [loader: 'fabric', loaderVersion: project.loader_version, apiVersion: project.fabric_api_version,
+             file: tasks.remapJar.archiveFile.get().asFile],
+            [loader: 'forge', loaderVersion: project.forge_version,
+             file: file("forge/build/libs/satori-mahjong-forge-${project.version}.jar")]
+        ]
+        def destination = layout.buildDirectory.dir("distributions/${project.version}").get().asFile
+        def records = targets.collect { target ->
+            if (!target.file.isFile()) throw new GradleException("Missing ${target.loader} release: ${target.file}")
+            new java.util.jar.JarFile(target.file).withCloseable { jar ->
+                def required = target.loader == 'fabric' ? 'fabric.mod.json' : 'META-INF/mods.toml'
+                def forbidden = target.loader == 'fabric' ? 'META-INF/mods.toml' : 'fabric.mod.json'
+                if (jar.getEntry(required) == null || jar.getEntry(forbidden) != null)
+                    throw new GradleException("Incorrect loader metadata in ${target.file.name}")
+                if (jar.entries().toList().any { it.name.contains('GameTest') || it.name.contains('Smoke') || it.name.contains('LocalAccountFixture') || it.name.startsWith('net/fabricmc/') || it.name == 'cloud-view.json' || it.name == 'electric-examples.json' || it.name.contains('ElectricTablePreview') })
+                    throw new GradleException("Test or loader implementation leaked into ${target.file.name}")
+            }
+            [loader: target.loader, loaderVersion: target.loaderVersion, apiVersion: target.apiVersion,
+             file: target.file.name, bytes: target.file.length(),
+             sha256: java.security.MessageDigest.getInstance('SHA-256').digest(target.file.bytes).encodeHex().toString()]
+        }
+        destination.mkdirs()
+        targets.each { target ->
+            java.nio.file.Files.copy(target.file.toPath(), new File(destination, target.file.name).toPath(),
+                    java.nio.file.StandardCopyOption.REPLACE_EXISTING)
+        }
+        new File(destination, 'manifest.json').text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(
+                [version: project.version.toString(), minecraft: project.minecraft_version, java: 21,
+                 clientAndServerRequired: project.client_and_server_required.toBoolean(), artifacts: records])) + '\n'
+        logger.lifecycle("Both loader releases: ${destination}")
+    }
+}

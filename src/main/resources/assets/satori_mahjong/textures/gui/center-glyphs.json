@@ -1,0 +1,205 @@
+{
+  "cell": 128,
+  "columns": 8,
+  "width": 1024,
+  "height": 896,
+  "size": 88,
+  "glyphs": {
+    "0": {
+      "index": 0,
+      "advance": 0.5900213068181818
+    },
+    "1": {
+      "index": 1,
+      "advance": 0.5900213068181818
+    },
+    "2": {
+      "index": 2,
+      "advance": 0.5900213068181818
+    },
+    "3": {
+      "index": 3,
+      "advance": 0.5900213068181818
+    },
+    "4": {
+      "index": 4,
+      "advance": 0.5900213068181818
+    },
+    "5": {
+      "index": 5,
+      "advance": 0.5900213068181818
+    },
+    "6": {
+      "index": 6,
+      "advance": 0.5900213068181818
+    },
+    "7": {
+      "index": 7,
+      "advance": 0.5900213068181818
+    },
+    "8": {
+      "index": 8,
+      "advance": 0.5900213068181818
+    },
+    "9": {
+      "index": 9,
+      "advance": 0.5900213068181818
+    },
+    "-": {
+      "index": 10,
+      "advance": 0.3700284090909091
+    },
+    "東": {
+      "index": 11,
+      "advance": 1.0
+    },
+    "南": {
+      "index": 12,
+      "advance": 1.0
+    },
+    "西": {
+      "index": 13,
+      "advance": 1.0
+    },
+    "北": {
+      "index": 14,
+      "advance": 1.0
+    },
+    "局": {
+      "index": 15,
+      "advance": 1.0
+    },
+    "余": {
+      "index": 16,
+      "advance": 1.0
+    },
+    "本": {
+      "index": 17,
+      "advance": 1.0
+    },
+    "场": {
+      "index": 18,
+      "advance": 1.0
+    },
+    "供": {
+      "index": 19,
+      "advance": 1.0
+    },
+    "托": {
+      "index": 20,
+      "advance": 1.0
+    },
+    "S": {
+      "index": 21,
+      "advance": 0.6239346590909091
+    },
+    "A": {
+      "index": 22,
+      "advance": 0.6409801136363636
+    },
+    "T": {
+      "index": 23,
+      "advance": 0.625
+    },
+    "O": {
+      "index": 24,
+      "advance": 0.7700639204545454
+    },
+    "R": {
+      "index": 25,
+      "advance": 0.6819957386363636
+    },
+    "I": {
+      "index": 26,
+      "advance": 0.330078125
+    },
+    "C": {
+      "index": 27,
+      "advance": 0.6560724431818182
+    },
+    "H": {
+      "index": 28,
+      "advance": 0.7569247159090909
+    },
+    " ": {
+      "index": 29,
+      "advance": 0.22691761363636365
+    },
+    "第": {
+      "index": 30,
+      "advance": 1.0
+    },
+    "川": {
+      "index": 31,
+      "advance": 1.0
+    },
+    "麻": {
+      "index": 32,
+      "advance": 1.0
+    },
+    "将": {
+      "index": 33,
+      "advance": 1.0
+    },
+    "血": {
+      "index": 34,
+      "advance": 1.0
+    },
+    "战": {
+      "index": 35,
+      "advance": 1.0
+    },
+    "到": {
+      "index": 36,
+      "advance": 1.0
+    },
+    "底": {
+      "index": 37,
+      "advance": 1.0
+    },
+    "缺": {
+      "index": 38,
+      "advance": 1.0
+    },
+    "万": {
+      "index": 39,
+      "advance": 1.0
+    },
+    "筒": {
+      "index": 40,
+      "advance": 1.0
+    },
+    "条": {
+      "index": 41,
+      "advance": 1.0
+    },
+    "已": {
+      "index": 42,
+      "advance": 1.0
+    },
+    "和": {
+      "index": 43,
+      "advance": 1.0
+    },
+    "定": {
+      "index": 44,
+      "advance": 1.0
+    },
+    "中": {
+      "index": 45,
+      "advance": 1.0
+    },
+    "换": {
+      "index": 46,
+      "advance": 1.0
+    },
+    "牌": {
+      "index": 47,
+      "advance": 1.0
+    },
+    "·": {
+      "index": 48,
+      "advance": 1.0
+    }
+  }
+}

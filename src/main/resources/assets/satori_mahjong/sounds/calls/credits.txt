@@ -1,0 +1,10 @@
+VOICEVOX:四国めたん
+SatoriMahjong Japanese calls: chi, pon, kan, reach, ron, tsumo, ryukyoku.
+Synthesized with VOICEVOX Core 0.17.0, voicevox_vvm 0.16.4 / 0.vvm, normal style 2.
+Approved light profile: natural speed, individual phoneme timing, restrained pitch,
+gentle frequency shaping, short fades and active RMS normalization.
+Generated audio use and redistribution must follow the voice library terms, retain
+the above credit, and require subsequent recipients to follow these same terms.
+https://zunko.jp/con_ongen_kiyaku.html
+https://voicevox.hiroshiba.jp/term/
+No endorsement by the voice authors is implied.

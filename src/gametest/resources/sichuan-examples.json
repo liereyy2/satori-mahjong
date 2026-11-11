@@ -1,0 +1,2488 @@
+{
+  "dingque": {
+    "cursor": "00000000-0000-0000-0000-0000000002bd:0:2199023255556",
+    "decision": {
+      "actions": [
+        {
+          "action_id": "3d52c9c0a1a65400e4297ab4d5ec1a17df065848cb4b397eec2a1e44386650d0",
+          "consume_slot_ids": [],
+          "event": {
+            "actor": 0,
+            "suit": 0,
+            "type": "dingque"
+          },
+          "target_seat": null,
+          "tile": null,
+          "type": "dingque"
+        },
+        {
+          "action_id": "291b35539bd6b304a06774a944cf665d02e751bc54d160a9b7f5410e11e2f976",
+          "consume_slot_ids": [],
+          "event": {
+            "actor": 0,
+            "suit": 1,
+            "type": "dingque"
+          },
+          "target_seat": null,
+          "tile": null,
+          "type": "dingque"
+        },
+        {
+          "action_id": "7192219f52c428886f7aa384d6fee787d0c24da91b099e7b289ab6638eeacd4c",
+          "consume_slot_ids": [],
+          "event": {
+            "actor": 0,
+            "suit": 2,
+            "type": "dingque"
+          },
+          "target_seat": null,
+          "tile": null,
+          "type": "dingque"
+        }
+      ],
+      "deadline_at": null,
+      "decision_id": "00000000-0000-0000-0000-0000000002bd:2:0",
+      "kind": "dingque"
+    },
+    "display": {
+      "decision_seat": null,
+      "drawn_seats": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "reaction_discard": null,
+      "seat_names": [
+        "Player0",
+        "Player1",
+        "Player2",
+        "Player3"
+      ],
+      "standing_hint": null,
+      "wall": {
+        "dead_wall": [
+          91
+        ],
+        "deal": [
+          {
+            "index": 0,
+            "packet": 0,
+            "seat": 0,
+            "slot": 88
+          },
+          {
+            "index": 1,
+            "packet": 0,
+            "seat": 0,
+            "slot": 89
+          },
+          {
+            "index": 2,
+            "packet": 0,
+            "seat": 0,
+            "slot": 86
+          },
+          {
+            "index": 3,
+            "packet": 0,
+            "seat": 0,
+            "slot": 87
+          },
+          {
+            "index": 0,
+            "packet": 1,
+            "seat": 1,
+            "slot": 84
+          },
+          {
+            "index": 1,
+            "packet": 1,
+            "seat": 1,
+            "slot": 85
+          },
+          {
+            "index": 2,
+            "packet": 1,
+            "seat": 1,
+            "slot": 82
+          },
+          {
+            "index": 3,
+            "packet": 1,
+            "seat": 1,
+            "slot": 83
+          },
+          {
+            "index": 0,
+            "packet": 2,
+            "seat": 2,
+            "slot": 80
+          },
+          {
+            "index": 1,
+            "packet": 2,
+            "seat": 2,
+            "slot": 81
+          },
+          {
+            "index": 2,
+            "packet": 2,
+            "seat": 2,
+            "slot": 78
+          },
+          {
+            "index": 3,
+            "packet": 2,
+            "seat": 2,
+            "slot": 79
+          },
+          {
+            "index": 0,
+            "packet": 3,
+            "seat": 3,
+            "slot": 76
+          },
+          {
+            "index": 1,
+            "packet": 3,
+            "seat": 3,
+            "slot": 77
+          },
+          {
+            "index": 2,
+            "packet": 3,
+            "seat": 3,
+            "slot": 74
+          },
+          {
+            "index": 3,
+            "packet": 3,
+            "seat": 3,
+            "slot": 75
+          },
+          {
+            "index": 4,
+            "packet": 4,
+            "seat": 0,
+            "slot": 72
+          },
+          {
+            "index": 5,
+            "packet": 4,
+            "seat": 0,
+            "slot": 73
+          },
+          {
+            "index": 6,
+            "packet": 4,
+            "seat": 0,
+            "slot": 70
+          },
+          {
+            "index": 7,
+            "packet": 4,
+            "seat": 0,
+            "slot": 71
+          },
+          {
+            "index": 4,
+            "packet": 5,
+            "seat": 1,
+            "slot": 68
+          },
+          {
+            "index": 5,
+            "packet": 5,
+            "seat": 1,
+            "slot": 69
+          },
+          {
+            "index": 6,
+            "packet": 5,
+            "seat": 1,
+            "slot": 58
+          },
+          {
+            "index": 7,
+            "packet": 5,
+            "seat": 1,
+            "slot": 59
+          },
+          {
+            "index": 4,
+            "packet": 6,
+            "seat": 2,
+            "slot": 56
+          },
+          {
+            "index": 5,
+            "packet": 6,
+            "seat": 2,
+            "slot": 57
+          },
+          {
+            "index": 6,
+            "packet": 6,
+            "seat": 2,
+            "slot": 54
+          },
+          {
+            "index": 7,
+            "packet": 6,
+            "seat": 2,
+            "slot": 55
+          },
+          {
+            "index": 4,
+            "packet": 7,
+            "seat": 3,
+            "slot": 52
+          },
+          {
+            "index": 5,
+            "packet": 7,
+            "seat": 3,
+            "slot": 53
+          },
+          {
+            "index": 6,
+            "packet": 7,
+            "seat": 3,
+            "slot": 50
+          },
+          {
+            "index": 7,
+            "packet": 7,
+            "seat": 3,
+            "slot": 51
+          },
+          {
+            "index": 8,
+            "packet": 8,
+            "seat": 0,
+            "slot": 48
+          },
+          {
+            "index": 9,
+            "packet": 8,
+            "seat": 0,
+            "slot": 49
+          },
+          {
+            "index": 10,
+            "packet": 8,
+            "seat": 0,
+            "slot": 46
+          },
+          {
+            "index": 11,
+            "packet": 8,
+            "seat": 0,
+            "slot": 47
+          },
+          {
+            "index": 8,
+            "packet": 9,
+            "seat": 1,
+            "slot": 44
+          },
+          {
+            "index": 9,
+            "packet": 9,
+            "seat": 1,
+            "slot": 45
+          },
+          {
+            "index": 10,
+            "packet": 9,
+            "seat": 1,
+            "slot": 42
+          },
+          {
+            "index": 11,
+            "packet": 9,
+            "seat": 1,
+            "slot": 43
+          },
+          {
+            "index": 8,
+            "packet": 10,
+            "seat": 2,
+            "slot": 40
+          },
+          {
+            "index": 9,
+            "packet": 10,
+            "seat": 2,
+            "slot": 41
+          },
+          {
+            "index": 10,
+            "packet": 10,
+            "seat": 2,
+            "slot": 38
+          },
+          {
+            "index": 11,
+            "packet": 10,
+            "seat": 2,
+            "slot": 39
+          },
+          {
+            "index": 8,
+            "packet": 11,
+            "seat": 3,
+            "slot": 36
+          },
+          {
+            "index": 9,
+            "packet": 11,
+            "seat": 3,
+            "slot": 37
+          },
+          {
+            "index": 10,
+            "packet": 11,
+            "seat": 3,
+            "slot": 34
+          },
+          {
+            "index": 11,
+            "packet": 11,
+            "seat": 3,
+            "slot": 35
+          },
+          {
+            "index": 12,
+            "packet": 12,
+            "seat": 0,
+            "slot": 26
+          },
+          {
+            "index": 12,
+            "packet": 13,
+            "seat": 1,
+            "slot": 27
+          },
+          {
+            "index": 12,
+            "packet": 14,
+            "seat": 2,
+            "slot": 24
+          },
+          {
+            "index": 12,
+            "packet": 15,
+            "seat": 3,
+            "slot": 25
+          }
+        ],
+        "dealing": true,
+        "dice": [
+          2,
+          1
+        ],
+        "drawn_slots": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "first_draw": 22,
+        "indicators": [],
+        "remaining": [
+          22,
+          23,
+          20,
+          21,
+          18,
+          19,
+          16,
+          17,
+          14,
+          15,
+          12,
+          13,
+          10,
+          11,
+          8,
+          9,
+          6,
+          7,
+          4,
+          5,
+          2,
+          3,
+          0,
+          1,
+          126,
+          127,
+          124,
+          125,
+          122,
+          123,
+          120,
+          121,
+          118,
+          119,
+          116,
+          117,
+          114,
+          115,
+          112,
+          113,
+          110,
+          111,
+          108,
+          109,
+          106,
+          107,
+          104,
+          105,
+          102,
+          103,
+          94,
+          95,
+          92,
+          93,
+          90,
+          91
+        ],
+        "roller": 0,
+        "stack_from_right": 4,
+        "wall_seat": 2
+      }
+    },
+    "game_id": "00000000-0000-0000-0000-0000000002bd",
+    "owner_user_id": "00000000-0000-0000-0000-000000000001",
+    "pause_reason": null,
+    "private": {
+      "hand": [
+        {
+          "slot_id": "h-2-0-0",
+          "tile": "3m",
+          "tile_id": 2
+        },
+        {
+          "slot_id": "h-2-0-1",
+          "tile": "4m",
+          "tile_id": 3
+        },
+        {
+          "slot_id": "h-2-0-2",
+          "tile": "5m",
+          "tile_id": 4
+        },
+        {
+          "slot_id": "h-2-0-3",
+          "tile": "8m",
+          "tile_id": 7
+        },
+        {
+          "slot_id": "h-2-0-4",
+          "tile": "9m",
+          "tile_id": 8
+        },
+        {
+          "slot_id": "h-2-0-5",
+          "tile": "2p",
+          "tile_id": 10
+        },
+        {
+          "slot_id": "h-2-0-6",
+          "tile": "4p",
+          "tile_id": 12
+        },
+        {
+          "slot_id": "h-2-0-7",
+          "tile": "8p",
+          "tile_id": 16
+        },
+        {
+          "slot_id": "h-2-0-8",
+          "tile": "1s",
+          "tile_id": 18
+        },
+        {
+          "slot_id": "h-2-0-9",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-2-0-10",
+          "tile": "4s",
+          "tile_id": 21
+        },
+        {
+          "slot_id": "h-2-0-11",
+          "tile": "7s",
+          "tile_id": 24
+        },
+        {
+          "slot_id": "h-2-0-12",
+          "tile": "9s",
+          "tile_id": 26
+        }
+      ],
+      "last_tsumo_tile": null
+    },
+    "public": {
+      "bakaze": 27,
+      "discards": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "dora_indicators": [],
+      "hand_counts": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "honba": 0,
+      "kita_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kyoku": 1,
+      "kyotaku": 0,
+      "last_dahai": null,
+      "melds": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "oya": 0,
+      "pending_discard": null,
+      "revealed_hands": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "riichi_accepted": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "riichi_to_be_accepted": null,
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "seats": [
+        {
+          "kind": "human",
+          "name": "Player0",
+          "ready": true,
+          "seat": 0,
+          "user_id": "00000000-0000-0000-0000-000000000010"
+        },
+        {
+          "kind": "human",
+          "name": "Player1",
+          "ready": true,
+          "seat": 1,
+          "user_id": "00000000-0000-0000-0000-000000000011"
+        },
+        {
+          "kind": "human",
+          "name": "Player2",
+          "ready": true,
+          "seat": 2,
+          "user_id": "00000000-0000-0000-0000-000000000012"
+        },
+        {
+          "kind": "human",
+          "name": "Player3",
+          "ready": true,
+          "seat": 3,
+          "user_id": "00000000-0000-0000-0000-000000000013"
+        }
+      ],
+      "sichuan": {
+        "exchange_direction": 1,
+        "length": 4,
+        "opening_phase": "dingque",
+        "round": 1,
+        "void_suits": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "winners": [],
+        "winning_tiles": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "won": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "tiles_left": 55,
+      "tsumo_actor": 0,
+      "ura_indicators": []
+    },
+    "rules": {
+      "game_length_mode": "4",
+      "n_players": 4,
+      "rule_mode": "sichuan",
+      "sichuan": {
+        "discard_void_first": false,
+        "exchange_three": true,
+        "fan_cap": 4
+      }
+    },
+    "rules_version": "cloud-sichuan-20261018i",
+    "status": "playing",
+    "view_version": 2199023255556,
+    "viewer_seat": 0
+  },
+  "playing": {
+    "cursor": "00000000-0000-0000-0000-0000000002bd:0:2199023255558",
+    "decision": {
+      "actions": [
+        {
+          "action_id": "de5c46679e65eedb0d6359f78373400fc708e5868edea03674513be887e47afd",
+          "consume_slot_ids": [
+            "h-3-0-0"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "3m",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "3m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "b38bb44a8360c78cd4101c13b950ff7a0d252b3dc5cdad9fd43053d8e75a3fd2",
+          "consume_slot_ids": [
+            "h-3-0-1"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "4m",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "4m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "30270b87b4c96a461d02f32671655ac919ba7d1ce216c6aa58634d6823565d59",
+          "consume_slot_ids": [
+            "h-3-0-2"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "5m",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "5m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "dd9827db5943381e0aec028d763928fbd6c90f57e2ae2b24bd9035c9dc559635",
+          "consume_slot_ids": [
+            "h-3-0-3"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "8m",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "8m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "8680be8759c1abfb43dfed3cd0db1c3a4f0797bcd765ebe89eb1566cff5a1b00",
+          "consume_slot_ids": [
+            "h-3-0-4"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "9m",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "9m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "c7934b0a6e5dcd5bebb7f2a1debb55e23bf3cc579af09cbd073a1c07f813066c",
+          "consume_slot_ids": [
+            "h-3-0-5"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "2p",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "2p",
+          "type": "dahai"
+        },
+        {
+          "action_id": "a3e99694f88777fb5c3a8abd66680ad53cf6e7614cd5ddeed45f31c712633099",
+          "consume_slot_ids": [
+            "h-3-0-6"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "4p",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "4p",
+          "type": "dahai"
+        },
+        {
+          "action_id": "1783099b925a329806c876c32de471d2ad91fda999d5346eb72eaf7c035a5e56",
+          "consume_slot_ids": [
+            "h-3-0-7"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "8p",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "8p",
+          "type": "dahai"
+        },
+        {
+          "action_id": "db5c0c2dd5798e5e97f43f15b0913ccd2f6033afc35a6326b3a7e6c12ee12ada",
+          "consume_slot_ids": [
+            "h-3-0-9"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "1s",
+            "tsumogiri": true,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "1s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "a0abd95f743873136dc03a65b326a3b33f2fb3033f9ceb1677805ff86b0054dd",
+          "consume_slot_ids": [
+            "h-3-0-10"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "3s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "3s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "19703f31601fa267118dc8295f9846d33c8e6dc0fc30ea34dc16b9025cd66ed6",
+          "consume_slot_ids": [
+            "h-3-0-11"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "4s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "4s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "35121be5fba10c2ecf60d8f5e048c6371db2ddee4092ecd5f2afb5c207a1a600",
+          "consume_slot_ids": [
+            "h-3-0-12"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "7s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "7s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "cf81bbe62126d190b3337314bd674f29937ed7bfb81a72d8805ed72734c91e1c",
+          "consume_slot_ids": [
+            "h-3-0-13"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "9s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "9s",
+          "type": "dahai"
+        }
+      ],
+      "deadline_at": null,
+      "decision_id": "00000000-0000-0000-0000-0000000002bd:3:0",
+      "kind": "turn"
+    },
+    "display": {
+      "decision_seat": 0,
+      "drawn_seats": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "reaction_discard": null,
+      "seat_names": [
+        "Player0",
+        "Player1",
+        "Player2",
+        "Player3"
+      ],
+      "standing_hint": null,
+      "wall": {
+        "dead_wall": [
+          91
+        ],
+        "deal": [
+          {
+            "index": 0,
+            "packet": 0,
+            "seat": 0,
+            "slot": 88
+          },
+          {
+            "index": 1,
+            "packet": 0,
+            "seat": 0,
+            "slot": 89
+          },
+          {
+            "index": 2,
+            "packet": 0,
+            "seat": 0,
+            "slot": 86
+          },
+          {
+            "index": 3,
+            "packet": 0,
+            "seat": 0,
+            "slot": 87
+          },
+          {
+            "index": 0,
+            "packet": 1,
+            "seat": 1,
+            "slot": 84
+          },
+          {
+            "index": 1,
+            "packet": 1,
+            "seat": 1,
+            "slot": 85
+          },
+          {
+            "index": 2,
+            "packet": 1,
+            "seat": 1,
+            "slot": 82
+          },
+          {
+            "index": 3,
+            "packet": 1,
+            "seat": 1,
+            "slot": 83
+          },
+          {
+            "index": 0,
+            "packet": 2,
+            "seat": 2,
+            "slot": 80
+          },
+          {
+            "index": 1,
+            "packet": 2,
+            "seat": 2,
+            "slot": 81
+          },
+          {
+            "index": 2,
+            "packet": 2,
+            "seat": 2,
+            "slot": 78
+          },
+          {
+            "index": 3,
+            "packet": 2,
+            "seat": 2,
+            "slot": 79
+          },
+          {
+            "index": 0,
+            "packet": 3,
+            "seat": 3,
+            "slot": 76
+          },
+          {
+            "index": 1,
+            "packet": 3,
+            "seat": 3,
+            "slot": 77
+          },
+          {
+            "index": 2,
+            "packet": 3,
+            "seat": 3,
+            "slot": 74
+          },
+          {
+            "index": 3,
+            "packet": 3,
+            "seat": 3,
+            "slot": 75
+          },
+          {
+            "index": 4,
+            "packet": 4,
+            "seat": 0,
+            "slot": 72
+          },
+          {
+            "index": 5,
+            "packet": 4,
+            "seat": 0,
+            "slot": 73
+          },
+          {
+            "index": 6,
+            "packet": 4,
+            "seat": 0,
+            "slot": 70
+          },
+          {
+            "index": 7,
+            "packet": 4,
+            "seat": 0,
+            "slot": 71
+          },
+          {
+            "index": 4,
+            "packet": 5,
+            "seat": 1,
+            "slot": 68
+          },
+          {
+            "index": 5,
+            "packet": 5,
+            "seat": 1,
+            "slot": 69
+          },
+          {
+            "index": 6,
+            "packet": 5,
+            "seat": 1,
+            "slot": 58
+          },
+          {
+            "index": 7,
+            "packet": 5,
+            "seat": 1,
+            "slot": 59
+          },
+          {
+            "index": 4,
+            "packet": 6,
+            "seat": 2,
+            "slot": 56
+          },
+          {
+            "index": 5,
+            "packet": 6,
+            "seat": 2,
+            "slot": 57
+          },
+          {
+            "index": 6,
+            "packet": 6,
+            "seat": 2,
+            "slot": 54
+          },
+          {
+            "index": 7,
+            "packet": 6,
+            "seat": 2,
+            "slot": 55
+          },
+          {
+            "index": 4,
+            "packet": 7,
+            "seat": 3,
+            "slot": 52
+          },
+          {
+            "index": 5,
+            "packet": 7,
+            "seat": 3,
+            "slot": 53
+          },
+          {
+            "index": 6,
+            "packet": 7,
+            "seat": 3,
+            "slot": 50
+          },
+          {
+            "index": 7,
+            "packet": 7,
+            "seat": 3,
+            "slot": 51
+          },
+          {
+            "index": 8,
+            "packet": 8,
+            "seat": 0,
+            "slot": 48
+          },
+          {
+            "index": 9,
+            "packet": 8,
+            "seat": 0,
+            "slot": 49
+          },
+          {
+            "index": 10,
+            "packet": 8,
+            "seat": 0,
+            "slot": 46
+          },
+          {
+            "index": 11,
+            "packet": 8,
+            "seat": 0,
+            "slot": 47
+          },
+          {
+            "index": 8,
+            "packet": 9,
+            "seat": 1,
+            "slot": 44
+          },
+          {
+            "index": 9,
+            "packet": 9,
+            "seat": 1,
+            "slot": 45
+          },
+          {
+            "index": 10,
+            "packet": 9,
+            "seat": 1,
+            "slot": 42
+          },
+          {
+            "index": 11,
+            "packet": 9,
+            "seat": 1,
+            "slot": 43
+          },
+          {
+            "index": 8,
+            "packet": 10,
+            "seat": 2,
+            "slot": 40
+          },
+          {
+            "index": 9,
+            "packet": 10,
+            "seat": 2,
+            "slot": 41
+          },
+          {
+            "index": 10,
+            "packet": 10,
+            "seat": 2,
+            "slot": 38
+          },
+          {
+            "index": 11,
+            "packet": 10,
+            "seat": 2,
+            "slot": 39
+          },
+          {
+            "index": 8,
+            "packet": 11,
+            "seat": 3,
+            "slot": 36
+          },
+          {
+            "index": 9,
+            "packet": 11,
+            "seat": 3,
+            "slot": 37
+          },
+          {
+            "index": 10,
+            "packet": 11,
+            "seat": 3,
+            "slot": 34
+          },
+          {
+            "index": 11,
+            "packet": 11,
+            "seat": 3,
+            "slot": 35
+          },
+          {
+            "index": 12,
+            "packet": 12,
+            "seat": 0,
+            "slot": 26
+          },
+          {
+            "index": 12,
+            "packet": 13,
+            "seat": 1,
+            "slot": 27
+          },
+          {
+            "index": 12,
+            "packet": 14,
+            "seat": 2,
+            "slot": 24
+          },
+          {
+            "index": 12,
+            "packet": 15,
+            "seat": 3,
+            "slot": 25
+          }
+        ],
+        "dealing": true,
+        "dice": [
+          2,
+          1
+        ],
+        "drawn_slots": [
+          22,
+          null,
+          null,
+          null
+        ],
+        "first_draw": 22,
+        "indicators": [],
+        "remaining": [
+          23,
+          20,
+          21,
+          18,
+          19,
+          16,
+          17,
+          14,
+          15,
+          12,
+          13,
+          10,
+          11,
+          8,
+          9,
+          6,
+          7,
+          4,
+          5,
+          2,
+          3,
+          0,
+          1,
+          126,
+          127,
+          124,
+          125,
+          122,
+          123,
+          120,
+          121,
+          118,
+          119,
+          116,
+          117,
+          114,
+          115,
+          112,
+          113,
+          110,
+          111,
+          108,
+          109,
+          106,
+          107,
+          104,
+          105,
+          102,
+          103,
+          94,
+          95,
+          92,
+          93,
+          90,
+          91
+        ],
+        "roller": 0,
+        "stack_from_right": 4,
+        "wall_seat": 2
+      }
+    },
+    "game_id": "00000000-0000-0000-0000-0000000002bd",
+    "owner_user_id": "00000000-0000-0000-0000-000000000001",
+    "pause_reason": null,
+    "private": {
+      "hand": [
+        {
+          "slot_id": "h-3-0-0",
+          "tile": "3m",
+          "tile_id": 2
+        },
+        {
+          "slot_id": "h-3-0-1",
+          "tile": "4m",
+          "tile_id": 3
+        },
+        {
+          "slot_id": "h-3-0-2",
+          "tile": "5m",
+          "tile_id": 4
+        },
+        {
+          "slot_id": "h-3-0-3",
+          "tile": "8m",
+          "tile_id": 7
+        },
+        {
+          "slot_id": "h-3-0-4",
+          "tile": "9m",
+          "tile_id": 8
+        },
+        {
+          "slot_id": "h-3-0-5",
+          "tile": "2p",
+          "tile_id": 10
+        },
+        {
+          "slot_id": "h-3-0-6",
+          "tile": "4p",
+          "tile_id": 12
+        },
+        {
+          "slot_id": "h-3-0-7",
+          "tile": "8p",
+          "tile_id": 16
+        },
+        {
+          "slot_id": "h-3-0-8",
+          "tile": "1s",
+          "tile_id": 18
+        },
+        {
+          "slot_id": "h-3-0-9",
+          "tile": "1s",
+          "tile_id": 18
+        },
+        {
+          "slot_id": "h-3-0-10",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-3-0-11",
+          "tile": "4s",
+          "tile_id": 21
+        },
+        {
+          "slot_id": "h-3-0-12",
+          "tile": "7s",
+          "tile_id": 24
+        },
+        {
+          "slot_id": "h-3-0-13",
+          "tile": "9s",
+          "tile_id": 26
+        }
+      ],
+      "last_tsumo_tile": 18
+    },
+    "public": {
+      "bakaze": 27,
+      "discards": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "dora_indicators": [],
+      "hand_counts": [
+        14,
+        13,
+        13,
+        13
+      ],
+      "honba": 0,
+      "kita_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kyoku": 1,
+      "kyotaku": 0,
+      "last_dahai": null,
+      "melds": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "oya": 0,
+      "pending_discard": null,
+      "revealed_hands": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "riichi_accepted": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "riichi_to_be_accepted": null,
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "seats": [
+        {
+          "kind": "human",
+          "name": "Player0",
+          "ready": true,
+          "seat": 0,
+          "user_id": "00000000-0000-0000-0000-000000000010"
+        },
+        {
+          "kind": "human",
+          "name": "Player1",
+          "ready": true,
+          "seat": 1,
+          "user_id": "00000000-0000-0000-0000-000000000011"
+        },
+        {
+          "kind": "human",
+          "name": "Player2",
+          "ready": true,
+          "seat": 2,
+          "user_id": "00000000-0000-0000-0000-000000000012"
+        },
+        {
+          "kind": "human",
+          "name": "Player3",
+          "ready": true,
+          "seat": 3,
+          "user_id": "00000000-0000-0000-0000-000000000013"
+        }
+      ],
+      "sichuan": {
+        "exchange_direction": 1,
+        "length": 4,
+        "opening_phase": "turn",
+        "round": 1,
+        "void_suits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "winners": [],
+        "winning_tiles": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "won": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "tiles_left": 54,
+      "tsumo_actor": 0,
+      "ura_indicators": []
+    },
+    "rules": {
+      "game_length_mode": "4",
+      "n_players": 4,
+      "rule_mode": "sichuan",
+      "sichuan": {
+        "discard_void_first": false,
+        "exchange_three": true,
+        "fan_cap": 4
+      }
+    },
+    "rules_version": "cloud-sichuan-20261018i",
+    "status": "playing",
+    "view_version": 2199023255558,
+    "viewer_seat": 0
+  },
+  "won": {
+    "cursor": "00000000-0000-0000-0000-0000000002bd:0:2199023255609",
+    "decision": {
+      "actions": [
+        {
+          "action_id": "6deb00508400afa5240baca7548df4dcaa640e599ab9980caa994930076458ad",
+          "consume_slot_ids": [
+            "h-54-0-0"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "4m",
+            "tsumogiri": true,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "4m",
+          "type": "dahai"
+        },
+        {
+          "action_id": "4e167327f4c9f864809c6980b44a4bf1907bf561439a2e54cfc0211de5a8f4e1",
+          "consume_slot_ids": [
+            "h-54-0-1"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "8p",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "8p",
+          "type": "dahai"
+        },
+        {
+          "action_id": "f5e425ba5aada4654c3bca8e9199742b75d5e75e78625fe48050dbc270edf640",
+          "consume_slot_ids": [
+            "h-54-0-3"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "9p",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "9p",
+          "type": "dahai"
+        },
+        {
+          "action_id": "80b22c22b95452cb9fa8c361b9e6aac951dad0ea8ed0291950909e62b761cb1b",
+          "consume_slot_ids": [
+            "h-54-0-4"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "2s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "2s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "a26edd55fef8227c9c068bd40465686e3e96b384bd53d803697f2e3a92644282",
+          "consume_slot_ids": [
+            "h-54-0-5"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "3s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "3s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "7584a8e24b7a2bf7946a46a712bbcc4c3f845dedcb69816edfed8814695b6a14",
+          "consume_slot_ids": [
+            "h-54-0-6"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "4s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "4s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "4e59ae857b49179cfc6f767dabaa6b3f99c8862091f5616a4365764a8374c8a0",
+          "consume_slot_ids": [
+            "h-54-0-8"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "5s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "5s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "76924f7f168dbd037a8dd8d7819ed165e60c6c8ac1c974455a77323eab18f0d2",
+          "consume_slot_ids": [
+            "h-54-0-9"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "6s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "6s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "e6bbbcb415920e5024e94ce1d4ca2f6379181e990831611fd6b918f07b389950",
+          "consume_slot_ids": [
+            "h-54-0-10"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "8s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "8s",
+          "type": "dahai"
+        },
+        {
+          "action_id": "1ad07d7d3945192385ac1c1fa04fa849afdc99060479b6f11938092fd96e78de",
+          "consume_slot_ids": [
+            "h-54-0-12"
+          ],
+          "event": {
+            "actor": 0,
+            "pai": "9s",
+            "tsumogiri": false,
+            "type": "dahai"
+          },
+          "target_seat": null,
+          "tile": "9s",
+          "type": "dahai"
+        }
+      ],
+      "deadline_at": null,
+      "decision_id": "00000000-0000-0000-0000-0000000002bd:54:0",
+      "kind": "turn"
+    },
+    "display": {
+      "decision_seat": 0,
+      "drawn_seats": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "reaction_discard": null,
+      "seat_names": [
+        "Player0",
+        "Player1",
+        "Player2",
+        "Player3"
+      ],
+      "standing_hint": null,
+      "wall": {
+        "dead_wall": [
+          83
+        ],
+        "deal": [
+          {
+            "index": 0,
+            "packet": 0,
+            "seat": 0,
+            "slot": 80
+          },
+          {
+            "index": 1,
+            "packet": 0,
+            "seat": 0,
+            "slot": 81
+          },
+          {
+            "index": 2,
+            "packet": 0,
+            "seat": 0,
+            "slot": 78
+          },
+          {
+            "index": 3,
+            "packet": 0,
+            "seat": 0,
+            "slot": 79
+          },
+          {
+            "index": 0,
+            "packet": 1,
+            "seat": 1,
+            "slot": 76
+          },
+          {
+            "index": 1,
+            "packet": 1,
+            "seat": 1,
+            "slot": 77
+          },
+          {
+            "index": 2,
+            "packet": 1,
+            "seat": 1,
+            "slot": 74
+          },
+          {
+            "index": 3,
+            "packet": 1,
+            "seat": 1,
+            "slot": 75
+          },
+          {
+            "index": 0,
+            "packet": 2,
+            "seat": 2,
+            "slot": 72
+          },
+          {
+            "index": 1,
+            "packet": 2,
+            "seat": 2,
+            "slot": 73
+          },
+          {
+            "index": 2,
+            "packet": 2,
+            "seat": 2,
+            "slot": 70
+          },
+          {
+            "index": 3,
+            "packet": 2,
+            "seat": 2,
+            "slot": 71
+          },
+          {
+            "index": 0,
+            "packet": 3,
+            "seat": 3,
+            "slot": 68
+          },
+          {
+            "index": 1,
+            "packet": 3,
+            "seat": 3,
+            "slot": 69
+          },
+          {
+            "index": 2,
+            "packet": 3,
+            "seat": 3,
+            "slot": 58
+          },
+          {
+            "index": 3,
+            "packet": 3,
+            "seat": 3,
+            "slot": 59
+          },
+          {
+            "index": 4,
+            "packet": 4,
+            "seat": 0,
+            "slot": 56
+          },
+          {
+            "index": 5,
+            "packet": 4,
+            "seat": 0,
+            "slot": 57
+          },
+          {
+            "index": 6,
+            "packet": 4,
+            "seat": 0,
+            "slot": 54
+          },
+          {
+            "index": 7,
+            "packet": 4,
+            "seat": 0,
+            "slot": 55
+          },
+          {
+            "index": 4,
+            "packet": 5,
+            "seat": 1,
+            "slot": 52
+          },
+          {
+            "index": 5,
+            "packet": 5,
+            "seat": 1,
+            "slot": 53
+          },
+          {
+            "index": 6,
+            "packet": 5,
+            "seat": 1,
+            "slot": 50
+          },
+          {
+            "index": 7,
+            "packet": 5,
+            "seat": 1,
+            "slot": 51
+          },
+          {
+            "index": 4,
+            "packet": 6,
+            "seat": 2,
+            "slot": 48
+          },
+          {
+            "index": 5,
+            "packet": 6,
+            "seat": 2,
+            "slot": 49
+          },
+          {
+            "index": 6,
+            "packet": 6,
+            "seat": 2,
+            "slot": 46
+          },
+          {
+            "index": 7,
+            "packet": 6,
+            "seat": 2,
+            "slot": 47
+          },
+          {
+            "index": 4,
+            "packet": 7,
+            "seat": 3,
+            "slot": 44
+          },
+          {
+            "index": 5,
+            "packet": 7,
+            "seat": 3,
+            "slot": 45
+          },
+          {
+            "index": 6,
+            "packet": 7,
+            "seat": 3,
+            "slot": 42
+          },
+          {
+            "index": 7,
+            "packet": 7,
+            "seat": 3,
+            "slot": 43
+          },
+          {
+            "index": 8,
+            "packet": 8,
+            "seat": 0,
+            "slot": 40
+          },
+          {
+            "index": 9,
+            "packet": 8,
+            "seat": 0,
+            "slot": 41
+          },
+          {
+            "index": 10,
+            "packet": 8,
+            "seat": 0,
+            "slot": 38
+          },
+          {
+            "index": 11,
+            "packet": 8,
+            "seat": 0,
+            "slot": 39
+          },
+          {
+            "index": 8,
+            "packet": 9,
+            "seat": 1,
+            "slot": 36
+          },
+          {
+            "index": 9,
+            "packet": 9,
+            "seat": 1,
+            "slot": 37
+          },
+          {
+            "index": 10,
+            "packet": 9,
+            "seat": 1,
+            "slot": 34
+          },
+          {
+            "index": 11,
+            "packet": 9,
+            "seat": 1,
+            "slot": 35
+          },
+          {
+            "index": 8,
+            "packet": 10,
+            "seat": 2,
+            "slot": 26
+          },
+          {
+            "index": 9,
+            "packet": 10,
+            "seat": 2,
+            "slot": 27
+          },
+          {
+            "index": 10,
+            "packet": 10,
+            "seat": 2,
+            "slot": 24
+          },
+          {
+            "index": 11,
+            "packet": 10,
+            "seat": 2,
+            "slot": 25
+          },
+          {
+            "index": 8,
+            "packet": 11,
+            "seat": 3,
+            "slot": 22
+          },
+          {
+            "index": 9,
+            "packet": 11,
+            "seat": 3,
+            "slot": 23
+          },
+          {
+            "index": 10,
+            "packet": 11,
+            "seat": 3,
+            "slot": 20
+          },
+          {
+            "index": 11,
+            "packet": 11,
+            "seat": 3,
+            "slot": 21
+          },
+          {
+            "index": 12,
+            "packet": 12,
+            "seat": 0,
+            "slot": 18
+          },
+          {
+            "index": 12,
+            "packet": 13,
+            "seat": 1,
+            "slot": 19
+          },
+          {
+            "index": 12,
+            "packet": 14,
+            "seat": 2,
+            "slot": 16
+          },
+          {
+            "index": 12,
+            "packet": 15,
+            "seat": 3,
+            "slot": 17
+          }
+        ],
+        "dealing": false,
+        "dice": [
+          2,
+          5
+        ],
+        "drawn_slots": [
+          88,
+          93,
+          90,
+          91
+        ],
+        "first_draw": 14,
+        "indicators": [],
+        "remaining": [
+          89,
+          86,
+          87,
+          84,
+          85,
+          82,
+          83
+        ],
+        "roller": 0,
+        "stack_from_right": 8,
+        "wall_seat": 2
+      }
+    },
+    "game_id": "00000000-0000-0000-0000-0000000002bd",
+    "owner_user_id": "00000000-0000-0000-0000-000000000001",
+    "pause_reason": null,
+    "private": {
+      "hand": [
+        {
+          "slot_id": "h-54-0-0",
+          "tile": "4m",
+          "tile_id": 3
+        },
+        {
+          "slot_id": "h-54-0-1",
+          "tile": "8p",
+          "tile_id": 16
+        },
+        {
+          "slot_id": "h-54-0-2",
+          "tile": "8p",
+          "tile_id": 16
+        },
+        {
+          "slot_id": "h-54-0-3",
+          "tile": "9p",
+          "tile_id": 17
+        },
+        {
+          "slot_id": "h-54-0-4",
+          "tile": "2s",
+          "tile_id": 19
+        },
+        {
+          "slot_id": "h-54-0-5",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-54-0-6",
+          "tile": "4s",
+          "tile_id": 21
+        },
+        {
+          "slot_id": "h-54-0-7",
+          "tile": "4s",
+          "tile_id": 21
+        },
+        {
+          "slot_id": "h-54-0-8",
+          "tile": "5s",
+          "tile_id": 22
+        },
+        {
+          "slot_id": "h-54-0-9",
+          "tile": "6s",
+          "tile_id": 23
+        },
+        {
+          "slot_id": "h-54-0-10",
+          "tile": "8s",
+          "tile_id": 25
+        },
+        {
+          "slot_id": "h-54-0-11",
+          "tile": "8s",
+          "tile_id": 25
+        },
+        {
+          "slot_id": "h-54-0-12",
+          "tile": "9s",
+          "tile_id": 26
+        },
+        {
+          "slot_id": "h-54-0-13",
+          "tile": "9s",
+          "tile_id": 26
+        }
+      ],
+      "last_tsumo_tile": 3
+    },
+    "public": {
+      "bakaze": 27,
+      "discards": [
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 12,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 14,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 14,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 15,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": true,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 11,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 12,
+            "tsumogiri": false,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 11,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 12,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 17,
+            "tsumogiri": false,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": false,
+            "was_called": false
+          }
+        ]
+      ],
+      "dora_indicators": [],
+      "hand_counts": [
+        14,
+        13,
+        13,
+        14
+      ],
+      "honba": 0,
+      "kita_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kyoku": 1,
+      "kyotaku": 0,
+      "last_dahai": [
+        2,
+        17
+      ],
+      "melds": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "oya": 0,
+      "pending_discard": null,
+      "revealed_hands": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "riichi_accepted": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "riichi_to_be_accepted": null,
+      "scores": [
+        -2,
+        -2,
+        -2,
+        6
+      ],
+      "seats": [
+        {
+          "kind": "human",
+          "name": "Player0",
+          "ready": true,
+          "seat": 0,
+          "user_id": "00000000-0000-0000-0000-000000000010"
+        },
+        {
+          "kind": "human",
+          "name": "Player1",
+          "ready": true,
+          "seat": 1,
+          "user_id": "00000000-0000-0000-0000-000000000011"
+        },
+        {
+          "kind": "human",
+          "name": "Player2",
+          "ready": true,
+          "seat": 2,
+          "user_id": "00000000-0000-0000-0000-000000000012"
+        },
+        {
+          "kind": "human",
+          "name": "Player3",
+          "ready": true,
+          "seat": 3,
+          "user_id": "00000000-0000-0000-0000-000000000013"
+        }
+      ],
+      "sichuan": {
+        "exchange_direction": 3,
+        "length": 4,
+        "opening_phase": "turn",
+        "round": 1,
+        "void_suits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "winners": [
+          3
+        ],
+        "winning_tiles": [
+          null,
+          null,
+          null,
+          23
+        ],
+        "won": [
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "tiles_left": 6,
+      "tsumo_actor": 0,
+      "ura_indicators": []
+    },
+    "rules": {
+      "game_length_mode": "4",
+      "n_players": 4,
+      "rule_mode": "sichuan",
+      "sichuan": {
+        "discard_void_first": false,
+        "exchange_three": true,
+        "fan_cap": 4
+      }
+    },
+    "rules_version": "cloud-sichuan-20261018i",
+    "status": "playing",
+    "view_version": 2199023255609,
+    "viewer_seat": 0
+  }
+}

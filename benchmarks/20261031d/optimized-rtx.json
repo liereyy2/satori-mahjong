@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "tables": 0,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 76,
+        "mean_ms": 0.006534618421052632,
+        "p50_ms": 0.006009,
+        "p95_ms": 0.00727
+      },
+      "tile_pass_gpu": {
+        "samples": 74,
+        "mean_ms": 0.0011485405405405405,
+        "p50_ms": 0.001024,
+        "p95_ms": 0.002048
+      },
+      "frame": {
+        "samples": 76,
+        "mean_ms": 52.97536580263158,
+        "p50_ms": 52.465878,
+        "p95_ms": 56.701007
+      },
+      "idle_server_tick": {
+        "samples": 76,
+        "mean_ms": 3.0254939078947367,
+        "p50_ms": 2.336833,
+        "p95_ms": 3.121017
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 1,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 79,
+        "mean_ms": 0.5901785443037975,
+        "p50_ms": 0.559179,
+        "p95_ms": 0.870728
+      },
+      "tile_pass_gpu": {
+        "samples": 77,
+        "mean_ms": 0.08453984415584416,
+        "p50_ms": 0.083968,
+        "p95_ms": 0.090112
+      },
+      "frame": {
+        "samples": 79,
+        "mean_ms": 51.329126556962024,
+        "p50_ms": 51.153224,
+        "p95_ms": 53.316441
+      },
+      "idle_server_tick": {
+        "samples": 79,
+        "mean_ms": 1.5702943037974684,
+        "p50_ms": 1.519104,
+        "p95_ms": 1.94743
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 4,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 79,
+        "mean_ms": 0.893296253164557,
+        "p50_ms": 0.869847,
+        "p95_ms": 1.093895
+      },
+      "tile_pass_gpu": {
+        "samples": 77,
+        "mean_ms": 0.1976452987012987,
+        "p50_ms": 0.196608,
+        "p95_ms": 0.2048
+      },
+      "frame": {
+        "samples": 79,
+        "mean_ms": 51.2431633164557,
+        "p50_ms": 51.277221,
+        "p95_ms": 52.276281
+      },
+      "idle_server_tick": {
+        "samples": 79,
+        "mean_ms": 1.4931364430379748,
+        "p50_ms": 1.472813,
+        "p95_ms": 1.880699
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 16,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 71,
+        "mean_ms": 3.3634911126760563,
+        "p50_ms": 2.506292,
+        "p95_ms": 4.176108
+      },
+      "tile_pass_gpu": {
+        "samples": 69,
+        "mean_ms": 0.6767007536231884,
+        "p50_ms": 0.654336,
+        "p95_ms": 0.67072
+      },
+      "frame": {
+        "samples": 71,
+        "mean_ms": 56.56145233802817,
+        "p50_ms": 55.926769,
+        "p95_ms": 59.063982
+      },
+      "idle_server_tick": {
+        "samples": 71,
+        "mean_ms": 5.179397774647887,
+        "p50_ms": 4.996157,
+        "p95_ms": 7.353683
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 16,
+      "moving": true,
+      "tiles_per_table": 108,
+      "tile_pass_cpu": {
+        "samples": 72,
+        "mean_ms": 2.237487333333333,
+        "p50_ms": 2.051322,
+        "p95_ms": 3.431618
+      },
+      "tile_pass_gpu": {
+        "samples": 70,
+        "mean_ms": 0.5432173714285714,
+        "p50_ms": 0.52736,
+        "p95_ms": 0.544768
+      },
+      "frame": {
+        "samples": 72,
+        "mean_ms": 55.79815844444445,
+        "p50_ms": 55.540601,
+        "p95_ms": 58.200082
+      },
+      "idle_server_tick": {
+        "samples": 72,
+        "mean_ms": 13.09156338888889,
+        "p50_ms": 12.670607,
+        "p95_ms": 16.801432
+      },
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2",
+  "vendor": "NVIDIA Corporation",
+  "opengl": "3.3.0 NVIDIA 595.84",
+  "fixture": "Rust opening observer; 16 moving Sichuan exchange replays",
+  "server_scope": "integrated server, physical tables idle, no hosted sessions or inference",
+  "source_vertices_per_tile": 2352
+}

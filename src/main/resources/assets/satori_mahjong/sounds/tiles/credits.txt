@@ -1,0 +1,3 @@
+Original deterministic dry tile contacts, Satori Mahjong, 2026-10-18.
+Independently synthesized broadband impulses; no sampled third-party recordings.
+Two short lift/settle contacts for draw, one low dry landing for discard.

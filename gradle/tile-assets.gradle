@@ -1,0 +1,65 @@
+// Verify committed textures against the bundled upstream source snapshot for both loaders.
+def minecraftRoot = file(project.hasProperty('tileAssetsRoot') ? project.tileAssetsRoot : '.')
+def repositoryRoot = new File(minecraftRoot, 'asset-sources')
+def textureRoot = new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/textures/tiles')
+def names = ['m', 'p', 's'].collectMany { suit -> (1..9).collect { "${it}${suit}" } } +
+        (1..7).collect { "${it}z" } + ['0m', '0p', '0s', 'blank']
+def verifyTileTextures = tasks.register('verifyTileTextures') {
+    group = 'verification'
+    description = 'Verify online SVG provenance, texture hashes, dimensions and sampling metadata.'
+    inputs.dir textureRoot
+    inputs.file new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/tile-appearance.ts')
+    inputs.file new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/board-consts.ts')
+    inputs.file new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/tile-lens.ts')
+    inputs.file new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/tile-surface.ts')
+    inputs.file new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/hand-projection-reference.json')
+    inputs.file new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/hand_projection.json')
+    inputs.file new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/web_tile_mesh.json')
+    inputs.file new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/tile_appearance.json')
+    inputs.file new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/shaders/include/tile_resin.glsl')
+    inputs.file new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/shaders/include/tile_lens.glsl')
+    inputs.files names.collect { new File(repositoryRoot, "services/web/packages/tile-kit/src/assets/${it}.svg") }
+    doLast {
+        def manifest = new groovy.json.JsonSlurper().parse(new File(textureRoot, 'manifest.json'))
+        def sha = { file -> java.security.MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString() }
+        def require = { condition ->
+            if (!condition) throw new GradleException('Tile assets differ from asset-sources/. Run npm ci && npm run assets in tools/, review and commit the generated assets.')
+        }
+        require(new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/hand_projection.json').text ==
+                new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/hand-projection-reference.json').text)
+        def appearance = new groovy.json.JsonSlurper().parse(new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/tile_appearance.json'))
+        require(appearance.source == 'services/web/packages/mahjong-board-3d/src/engine/tile-appearance.ts')
+        require(appearance.sourceSha256 == sha(new File(repositoryRoot, appearance.source)))
+        require(manifest.appearanceSource == appearance.source && manifest.appearanceSourceSha256 == appearance.sourceSha256)
+        require(appearance.shaderSha256 == sha(new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/shaders/include/tile_resin.glsl')))
+        require(appearance.directionShaderSha256 == sha(new File(minecraftRoot,'src/main/resources/assets/satori_mahjong/shaders/include/tile_direction.glsl')))
+        require(appearance.lensSource == 'services/web/packages/mahjong-board-3d/src/engine/tile-lens.ts')
+        require(appearance.lensSourceSha256 == sha(new File(repositoryRoot, appearance.lensSource)))
+        require(appearance.lensShaderSha256 == sha(new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/shaders/include/tile_lens.glsl')))
+        def mesh = new groovy.json.JsonSlurper().parse(new File(minecraftRoot, 'src/main/resources/assets/satori_mahjong/models/web_tile_mesh.json'))
+        def constants = new File(repositoryRoot, 'services/web/packages/mahjong-board-3d/src/engine/board-consts.ts').text
+        [width:'TW', height:'TH', depth:'TD', radius:'TILE_CORNER_RADIUS', segments:'TILE_CORNER_SEGMENTS'].each { field, name ->
+            def match = constants =~ /export const ${name} = ([0-9.]+);/
+            require(match.find() && mesh[field] == new BigDecimal(match.group(1)))
+        }
+        require(appearance.surfaceSourceSha256 == sha(new File(repositoryRoot,appearance.surfaceSource)))
+        require(manifest.surfaceEncoding == 'roughness-coating-linear')
+        require(manifest.schema == 3 && manifest.width == 384 && manifest.height == 528 && manifest.padding == 32)
+        require(manifest.tiles.size() == 38)
+        manifest.tiles.eachWithIndex { tile, id ->
+            def source = "services/web/packages/tile-kit/src/assets/${names[id]}.svg"
+            require(tile.id == id && tile.source == source && tile.texture == "${id}.png" && tile.concealed == (id == 37))
+            require(tile.sourceSha256 == sha(new File(repositoryRoot, source)))
+            def png = new File(textureRoot, tile.texture)
+            require(tile.textureSha256 == sha(png))
+            require(tile.surfaceSha256 == sha(new File(textureRoot,tile.surfaceTexture)))
+            def image = javax.imageio.ImageIO.read(png)
+            require(image.width == manifest.width && image.height == manifest.height)
+            def metadata = new groovy.json.JsonSlurper().parse(new File(textureRoot, "${id}.png.mcmeta"))
+            require(metadata.texture.blur == true && metadata.texture.clamp == true)
+        }
+    }
+}
+tasks.matching { it.name in ['processResources', 'processSmokeResources'] }.configureEach {
+    dependsOn verifyTileTextures
+}

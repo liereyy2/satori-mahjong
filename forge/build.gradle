@@ -1,0 +1,113 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '7.0.29'
+}
+
+def shared = new Properties()
+file('../gradle.properties').withInputStream { shared.load(it) }
+version = shared.mod_version
+group = shared.maven_group
+base { archivesName = 'satori-mahjong-forge' }
+ext.tileAssetsRoot = '..'
+apply from: '../gradle/tile-assets.gradle'
+apply from: '../gradle/language-assets.gradle'
+apply from: '../gradle/release-cleanup.gradle'
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+
+sourceSets {
+    main {
+        java.srcDirs '../src/main/java', '../src/client/java'
+        resources.srcDir '../src/main/resources'
+    }
+    test.java.srcDir '../src/test/java'
+    smoke {
+        java.srcDir '../src/testFixtures/java'
+        // Forge's JPMS layer requires each package to belong to exactly one module.
+        // Compile the same production sources with fixtures into a test-only module.
+        java.srcDirs sourceSets.main.java.srcDirs
+        resources.srcDir '../src/main/resources'
+    }
+}
+configurations {
+    smokeImplementation.extendsFrom implementation
+    smokeRuntimeOnly.extendsFrom runtimeOnly
+    smokeAnnotationProcessor.extendsFrom annotationProcessor
+}
+
+minecraft {
+    mappings channel: 'official', version: shared.minecraft_version
+    runs {
+        configureEach {
+            workingDir = layout.projectDirectory.dir('run')
+            args '--mixin.config=satori-mahjong.mixins.json'
+            systemProperty 'eventbus.api.strictRuntimeChecks', 'true'
+            systemProperty 'java.io.tmpdir', layout.buildDirectory.dir('tmp/runtime').get().asFile.absolutePath
+        }
+        register('client') {
+            with(sourceSets.smoke) {
+                workingDir = layout.buildDirectory.dir('run-client-smoke')
+                args '--username', 'SatoriForgeSmoke'
+                systemProperty 'satori.smoke.report', layout.buildDirectory.file('smoke/client.json').get().asFile.absolutePath
+            }
+        }
+        register('server') {
+            workingDir = layout.projectDirectory.dir('run-server')
+            args '--nogui'
+            with(sourceSets.smoke) {
+                workingDir = layout.buildDirectory.dir('run-server-smoke')
+                systemProperty 'satori.smoke.report', layout.buildDirectory.file('smoke/server.json').get().asFile.absolutePath
+                systemProperty 'satori.smoke.reload', providers.gradleProperty('smokeReload').getOrElse('false')
+            }
+        }
+    }
+}
+repositories {
+    minecraft.mavenizer(it)
+    maven fg.forgeMaven
+    maven fg.minecraftLibsMaven
+    mavenCentral()
+}
+dependencies {
+    implementation minecraft.dependency("net.minecraftforge:forge:${shared.minecraft_version}-${shared.forge_version}")
+    annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.5'
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+}
+processTestResources { from('../src/test/resources'); from('../src/gametest/resources') { include '*.json'; exclude 'fabric.mod.json' } }
+tasks.named('processSmokeResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+    from('../src/gametest/resources') {
+        include '*.json'
+        exclude 'fabric.mod.json', 'satori-mahjong-performance-test.mixins.json'
+    }
+}
+tasks.matching { it.name in ['runSmokeClient', 'runSmokeServer'] }.configureEach {
+    doFirst {
+        def directory = layout.buildDirectory.dir('smoke').get().asFile
+        directory.mkdirs()
+        new File(directory, name == 'runSmokeClient' ? 'client.json' : 'server.json').delete()
+    }
+    doLast {
+        def report = layout.buildDirectory.file("smoke/${name == 'runSmokeClient' ? 'client' : 'server'}.json").get().asFile
+        if (!report.isFile() || new groovy.json.JsonSlurper().parse(report).status != 'passed')
+            throw new GradleException("Forge runtime verification failed: ${report}")
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+tasks.withType(JavaExec).configureEach {
+    doFirst { layout.buildDirectory.dir('tmp/runtime').get().asFile.mkdirs() }
+}
+test {
+    useJUnitPlatform()
+    systemProperty 'java.io.tmpdir', layout.buildDirectory.dir('tmp/test').get().asFile.absolutePath
+    doFirst { layout.buildDirectory.dir('tmp/test').get().asFile.mkdirs() }
+}
+
+jar { manifest.attributes('MixinConfigs': 'satori-mahjong.mixins.json') }

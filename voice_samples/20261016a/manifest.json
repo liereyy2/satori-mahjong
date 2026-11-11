@@ -1,0 +1,290 @@
+{
+  "status": "audition_samples_not_shipped",
+  "credit": "VOICEVOX:四国めたん",
+  "core_version": "0.17.0",
+  "numpy_version": "2.5.1",
+  "soundfile_version": "0.14.0",
+  "model_sha256": "917e592cae92a02fb7668bd9e168df4e39c8ab2f5302c2be71906c70ec4e2df2",
+  "onnxruntime_sha256": "2ebafae642d0b62efe8562d1ee6037ff6a29e8f6e996b4a444bfd777d8c0c3ba",
+  "sample_rate": 24000,
+  "profiles": {
+    "a_light": {
+      "label": "A · 轻快",
+      "style_id": 2,
+      "style": "ノーマル",
+      "intonation": 0.9,
+      "pitch": -0.015,
+      "phoneme_seconds": {
+        "pon": 0.3,
+        "kan": 0.31,
+        "reach": 0.43
+      }
+    },
+    "b_soft": {
+      "label": "B · 柔和",
+      "style_id": 0,
+      "style": "あまあま",
+      "intonation": 0.75,
+      "pitch": -0.025,
+      "phoneme_seconds": {
+        "pon": 0.34,
+        "kan": 0.35,
+        "reach": 0.48
+      }
+    }
+  },
+  "calls": {
+    "a_light/pon": {
+      "wav": {
+        "seconds": 0.3413,
+        "peak": 0.52432,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 49.7,
+        "trailing_ms_at_minus_40db": 34.6,
+        "sha256": "9ded6bd20c349cae998e7a34cf424b78b2c40fe4d27592c3572771677afc3c96"
+      },
+      "ogg": {
+        "seconds": 0.3413,
+        "peak": 0.54496,
+        "active_rms_dbfs": -17.95,
+        "leading_ms_at_minus_40db": 49.8,
+        "trailing_ms_at_minus_40db": 37.1,
+        "sha256": "353ba3efcee08fcf4c6674e89aa77b0c336729b37abcd458cd9e0b2d4a8de9a1"
+      }
+    },
+    "a_light/kan": {
+      "wav": {
+        "seconds": 0.3414,
+        "peak": 0.58078,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 43.3,
+        "trailing_ms_at_minus_40db": 24.7,
+        "sha256": "656bc3b6938e56f9f91624884015b6113e96d5028d5f4de79ad3fac6f3982025"
+      },
+      "ogg": {
+        "seconds": 0.3414,
+        "peak": 0.59924,
+        "active_rms_dbfs": -17.96,
+        "leading_ms_at_minus_40db": 40.8,
+        "trailing_ms_at_minus_40db": 24.7,
+        "sha256": "1983290d6a3016c8b03595aac9cf624e75043b5466cb7216b3162a68a1700310"
+      }
+    },
+    "a_light/reach": {
+      "wav": {
+        "seconds": 0.4693,
+        "peak": 0.70453,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 22.0,
+        "trailing_ms_at_minus_40db": 12.0,
+        "sha256": "ed57739fadf48056317d2ecd07b9f4b1c526cdb4036627a298897f85a8034aec"
+      },
+      "ogg": {
+        "seconds": 0.4693,
+        "peak": 0.70087,
+        "active_rms_dbfs": -17.89,
+        "leading_ms_at_minus_40db": 22.1,
+        "trailing_ms_at_minus_40db": 12.0,
+        "sha256": "52aa83726452648592b0abd16feaa2f6b957ac267cdfd5af48278675ebb6e07c"
+      }
+    },
+    "b_soft/pon": {
+      "wav": {
+        "seconds": 0.384,
+        "peak": 0.45248,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 62.1,
+        "trailing_ms_at_minus_40db": 11.2,
+        "sha256": "b5145254d0d6ef04aa923c4fe9f7c10161556b0e5433320e1837203cd578aa29"
+      },
+      "ogg": {
+        "seconds": 0.384,
+        "peak": 0.48229,
+        "active_rms_dbfs": -17.93,
+        "leading_ms_at_minus_40db": 58.5,
+        "trailing_ms_at_minus_40db": 20.2,
+        "sha256": "77fe872a41fde24b39768c9ac9592e93aa3a159d26ca2985a6cd388b2cb5d71a"
+      }
+    },
+    "b_soft/kan": {
+      "wav": {
+        "seconds": 0.384,
+        "peak": 0.5354,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 56.4,
+        "trailing_ms_at_minus_40db": 20.7,
+        "sha256": "bf53c69ff3a32849e2d9654d6f0b15f7080abfd8eb581ccefe2e1e540ffcdaf9"
+      },
+      "ogg": {
+        "seconds": 0.384,
+        "peak": 0.55138,
+        "active_rms_dbfs": -18.09,
+        "leading_ms_at_minus_40db": 48.1,
+        "trailing_ms_at_minus_40db": 20.7,
+        "sha256": "47f04b2ac1950789e5b5b78cae9ed80d25c96f93d421ae8d8652d9b2c258e418"
+      }
+    },
+    "b_soft/reach": {
+      "wav": {
+        "seconds": 0.5227,
+        "peak": 0.64343,
+        "active_rms_dbfs": -18.0,
+        "leading_ms_at_minus_40db": 25.6,
+        "trailing_ms_at_minus_40db": 32.5,
+        "sha256": "279a163f3e4ac20d0c63a5d01aa9b2ee6de3c73ec401509c639daddadd89c4f3"
+      },
+      "ogg": {
+        "seconds": 0.5227,
+        "peak": 0.69814,
+        "active_rms_dbfs": -17.94,
+        "leading_ms_at_minus_40db": 25.6,
+        "trailing_ms_at_minus_40db": 32.5,
+        "sha256": "91a5e59893d62d29378db616ae24baf664a0d73987ec737bb2221a72c59a2a43"
+      }
+    }
+  },
+  "previews": {
+    "a_light": {
+      "order": [
+        "pon",
+        "kan",
+        "reach"
+      ],
+      "gap_seconds": 0.65,
+      "wav": {
+        "seconds": 3.2521,
+        "peak": 0.70453,
+        "active_rms_dbfs": -21.94,
+        "leading_ms_at_minus_40db": 199.8,
+        "trailing_ms_at_minus_40db": 662.0,
+        "sha256": "656bec5935b51219b45c716f16feee7505cfac2e56a7433cab3f672d8fea72a8"
+      },
+      "mp3": {
+        "seconds": 3.2521,
+        "peak": 0.68321,
+        "active_rms_dbfs": -21.92,
+        "leading_ms_at_minus_40db": 199.8,
+        "trailing_ms_at_minus_40db": 662.2,
+        "sha256": "df9a7321e34f667093d0b0aca2bf08dc53c849886165f251fc7c9dfda39cd11e"
+      }
+    },
+    "b_soft": {
+      "order": [
+        "pon",
+        "kan",
+        "reach"
+      ],
+      "gap_seconds": 0.65,
+      "wav": {
+        "seconds": 3.3907,
+        "peak": 0.64343,
+        "active_rms_dbfs": -21.63,
+        "leading_ms_at_minus_40db": 212.2,
+        "trailing_ms_at_minus_40db": 682.5,
+        "sha256": "19b49a9a23d3cee27804bec50af1e6a2fb4c60c327f90a686f9d6ce942a6b0ee"
+      },
+      "mp3": {
+        "seconds": 3.3907,
+        "peak": 0.64349,
+        "active_rms_dbfs": -21.55,
+        "leading_ms_at_minus_40db": 212.2,
+        "trailing_ms_at_minus_40db": 682.2,
+        "sha256": "e8f9ba1e273b0f042de75ee1aff5025eb9c1222c6afb58e47ac541e879301cd2"
+      }
+    }
+  },
+  "model_metas": [
+    {
+      "name": "四国めたん",
+      "styles": [
+        {
+          "name": "ノーマル",
+          "id": 2,
+          "type": "talk",
+          "order": 0
+        },
+        {
+          "name": "あまあま",
+          "id": 0,
+          "type": "talk",
+          "order": 1
+        },
+        {
+          "name": "ツンツン",
+          "id": 6,
+          "type": "talk",
+          "order": 2
+        },
+        {
+          "name": "セクシー",
+          "id": 4,
+          "type": "talk",
+          "order": 3
+        }
+      ],
+      "speaker_uuid": "7ffcb7ce-00ec-4bdc-82cd-45a8889e43ff",
+      "version": "0.16.0",
+      "order": 0
+    },
+    {
+      "name": "ずんだもん",
+      "styles": [
+        {
+          "name": "ノーマル",
+          "id": 3,
+          "type": "talk",
+          "order": 0
+        },
+        {
+          "name": "あまあま",
+          "id": 1,
+          "type": "talk",
+          "order": 1
+        },
+        {
+          "name": "ツンツン",
+          "id": 7,
+          "type": "talk",
+          "order": 2
+        },
+        {
+          "name": "セクシー",
+          "id": 5,
+          "type": "talk",
+          "order": 3
+        }
+      ],
+      "speaker_uuid": "388f246b-8c41-4ac1-8e2d-5d79f3ff56d9",
+      "version": "0.16.0",
+      "order": 1
+    },
+    {
+      "name": "春日部つむぎ",
+      "styles": [
+        {
+          "name": "ノーマル",
+          "id": 8,
+          "type": "talk",
+          "order": 0
+        }
+      ],
+      "speaker_uuid": "35b2c544-660e-401e-b503-0e14c635303a",
+      "version": "0.16.0",
+      "order": 2
+    },
+    {
+      "name": "雨晴はう",
+      "styles": [
+        {
+          "name": "ノーマル",
+          "id": 10,
+          "type": "talk",
+          "order": 0
+        }
+      ],
+      "speaker_uuid": "3474ee95-c274-47f9-aa1a-8322163d96f1",
+      "version": "0.16.0",
+      "order": 3
+    }
+  ]
+}

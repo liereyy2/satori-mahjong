@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "satori_mahjong_test",
+  "version": "1.0.0",
+  "name": "Satori Mahjong isolated tests",
+  "environment": "*",
+  "mixins": ["satori-mahjong-performance-test.mixins.json"],
+  "entrypoints": {
+    "preLaunch": ["cn.satori.mahjong.benchmark.ShaderPackFixture"],
+    "fabric-client-gametest": ["cn.satori.mahjong.client.HostedTableGameTest"],
+    "server": ["cn.satori.mahjong.ServerGameTest"]
+  }
+}

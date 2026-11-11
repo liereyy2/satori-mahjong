@@ -1,0 +1,17 @@
+{
+  "name": "satori-minecraft-assets",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tiles": "node generate_tile_textures.mjs",
+    "model": "node generate_web_tile_model.mjs",
+    "occlusion": "node generate_tile_occlusion_fixtures.mjs",
+    "assets": "npm run model && npm run tiles"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "esbuild": "0.21.5",
+    "playwright": "1.62.0",
+    "three": "0.180.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "original": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "ポ",
+            "vowel": "o",
+            "vowel_length": 0.13509827852249146,
+            "pitch": 5.740118980407715,
+            "consonant": "p",
+            "consonant_length": 0.06404892355203629
+          },
+          {
+            "text": "ン",
+            "vowel": "N",
+            "vowel_length": 0.11572377383708954,
+            "pitch": 5.762911319732666,
+            "consonant": null,
+            "consonant_length": null
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": 0.0,
+    "intonation_scale": 1.0,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.10000000149011612,
+    "post_phoneme_length": 0.10000000149011612,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "ポ'ン"
+  },
+  "tuned": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "ポ",
+            "vowel": "o",
+            "vowel_length": 0.16801265976501,
+            "pitch": 5.740118980407715,
+            "consonant": "p",
+            "consonant_length": 0.06404892355203629
+          },
+          {
+            "text": "ン",
+            "vowel": "N",
+            "vowel_length": 0.10793841668295372,
+            "pitch": 5.762911319732666,
+            "consonant": null,
+            "consonant_length": null
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": -0.025,
+    "intonation_scale": 0.75,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.015,
+    "post_phoneme_length": 0.035,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "ポ'ン"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "satori_mahjong:block/control"
+    }
+  }
+}

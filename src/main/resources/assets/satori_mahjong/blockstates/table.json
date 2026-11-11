@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "part=0": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=1": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=2": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=3": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=4": {
+      "model": "satori_mahjong:block/table"
+    },
+    "part=5": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=6": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=7": {
+      "model": "satori_mahjong:block/table_surface"
+    },
+    "part=8": {
+      "model": "satori_mahjong:block/table_surface"
+    }
+  }
+}

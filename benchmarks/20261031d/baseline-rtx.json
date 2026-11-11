@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "tables": 0,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 74,
+        "mean_ms": 0.005938851351351351,
+        "p50_ms": 0.005684,
+        "p95_ms": 0.007566
+      },
+      "tile_pass_gpu": {
+        "samples": 72,
+        "mean_ms": 0.0012373333333333333,
+        "p50_ms": 0.001024,
+        "p95_ms": 0.002048
+      },
+      "frame": {
+        "samples": 74,
+        "mean_ms": 54.69681212162162,
+        "p50_ms": 54.5988,
+        "p95_ms": 58.141718
+      },
+      "idle_server_tick": {
+        "samples": 74,
+        "mean_ms": 2.909667418918919,
+        "p50_ms": 2.184789,
+        "p95_ms": 6.006994
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 1,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 51,
+        "mean_ms": 25.049797901960783,
+        "p50_ms": 23.567895,
+        "p95_ms": 30.00264
+      },
+      "tile_pass_gpu": {
+        "samples": 49,
+        "mean_ms": 5.785892571428572,
+        "p50_ms": 5.701632,
+        "p95_ms": 6.503424
+      },
+      "frame": {
+        "samples": 51,
+        "mean_ms": 78.89978690196078,
+        "p50_ms": 77.14222,
+        "p95_ms": 85.255197
+      },
+      "idle_server_tick": {
+        "samples": 51,
+        "mean_ms": 1.5208997254901961,
+        "p50_ms": 1.435962,
+        "p95_ms": 1.987529
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 4,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 40,
+        "mean_ms": 84.66981775,
+        "p50_ms": 80.472895,
+        "p95_ms": 97.839827
+      },
+      "tile_pass_gpu": {
+        "samples": 38,
+        "mean_ms": 17.118477473684212,
+        "p50_ms": 16.904192,
+        "p95_ms": 18.651136
+      },
+      "frame": {
+        "samples": 40,
+        "mean_ms": 135.32101317500002,
+        "p50_ms": 131.654184,
+        "p95_ms": 152.601944
+      },
+      "idle_server_tick": {
+        "samples": 40,
+        "mean_ms": 1.7894191249999998,
+        "p50_ms": 1.783608,
+        "p95_ms": 2.16559
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 16,
+      "moving": false,
+      "tiles_per_table": 136,
+      "tile_pass_cpu": {
+        "samples": 40,
+        "mean_ms": 312.52780992500004,
+        "p50_ms": 309.279283,
+        "p95_ms": 326.541396
+      },
+      "tile_pass_gpu": {
+        "samples": 38,
+        "mean_ms": 63.15409515789473,
+        "p50_ms": 63.010816,
+        "p95_ms": 65.519616
+      },
+      "frame": {
+        "samples": 40,
+        "mean_ms": 365.064272125,
+        "p50_ms": 362.761016,
+        "p95_ms": 379.513869
+      },
+      "idle_server_tick": {
+        "samples": 40,
+        "mean_ms": 3.818785775,
+        "p50_ms": 3.539389,
+        "p95_ms": 5.580649
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "tables": 16,
+      "moving": true,
+      "tiles_per_table": 108,
+      "tile_pass_cpu": {
+        "samples": 40,
+        "mean_ms": 252.56689685,
+        "p50_ms": 249.734579,
+        "p95_ms": 267.249873
+      },
+      "tile_pass_gpu": {
+        "samples": 38,
+        "mean_ms": 52.00084884210526,
+        "p50_ms": 51.915776,
+        "p95_ms": 54.508544
+      },
+      "frame": {
+        "samples": 40,
+        "mean_ms": 306.330860725,
+        "p50_ms": 302.917002,
+        "p95_ms": 320.479464
+      },
+      "idle_server_tick": {
+        "samples": 40,
+        "mean_ms": 10.27159195,
+        "p50_ms": 9.458439,
+        "p95_ms": 13.673854
+      },
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2",
+  "vendor": "NVIDIA Corporation",
+  "opengl": "3.3.0 NVIDIA 595.84",
+  "fixture": "Rust opening observer; 16 moving Sichuan exchange replays",
+  "server_scope": "integrated server, physical tables idle, no hosted sessions or inference",
+  "source_vertices_per_tile": 2352
+}

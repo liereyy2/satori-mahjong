@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="All Rights Reserved"
+[[mods]]
+modId="satori_mahjong"
+version="${version}"
+displayName="Satori Mahjong"
+[[mods]]
+modId="satori_mahjong_smoke"
+version="1.0.0"
+displayName="Satori isolated runtime verification"
+[[dependencies.satori_mahjong_smoke]]
+modId="satori_mahjong"
+mandatory=true
+versionRange="[0.1,)"
+ordering="AFTER"
+side="BOTH"

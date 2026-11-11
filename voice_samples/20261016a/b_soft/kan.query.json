@@ -1,0 +1,74 @@
+{
+  "original": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "カ",
+            "vowel": "a",
+            "vowel_length": 0.14278116822242737,
+            "pitch": 5.717172622680664,
+            "consonant": "k",
+            "consonant_length": 0.09594802558422089
+          },
+          {
+            "text": "ン",
+            "vowel": "N",
+            "vowel_length": 0.0847979411482811,
+            "pitch": 5.730719566345215,
+            "consonant": null,
+            "consonant_length": null
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": 0.0,
+    "intonation_scale": 1.0,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.10000000149011612,
+    "post_phoneme_length": 0.10000000149011612,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "カ'ン"
+  },
+  "tuned": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "カ",
+            "vowel": "a",
+            "vowel_length": 0.19717369446753397,
+            "pitch": 5.717172622680664,
+            "consonant": "k",
+            "consonant_length": 0.065
+          },
+          {
+            "text": "ン",
+            "vowel": "N",
+            "vowel_length": 0.08782630553246598,
+            "pitch": 5.730719566345215,
+            "consonant": null,
+            "consonant_length": null
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": -0.025,
+    "intonation_scale": 0.75,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.015,
+    "post_phoneme_length": 0.035,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "カ'ン"
+  }
+}

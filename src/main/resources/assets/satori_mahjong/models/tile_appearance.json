@@ -1,0 +1,36 @@
+{
+  "source": "services/web/packages/mahjong-board-3d/src/engine/tile-appearance.ts",
+  "sourceSha256": "bd6323a384c455de50faaddf1d5fd58a04f98ba2ae5a0d5133706d168f88a353",
+  "shaderSha256": "8daa34c7a880dbddc2afff308476e5c8df5c9a20165f2a4583928c79b70c324a",
+  "lensSource": "services/web/packages/mahjong-board-3d/src/engine/tile-lens.ts",
+  "lensSourceSha256": "9956e12a9304f6331c7460edd7f8b7ffaea88e611fd44f34cfec575d411c21c5",
+  "lensShaderSha256": "7b884a8165f13121c271a7653986cfbdd76587f236ab4c4ae07663af527581fa",
+  "surfaceSource": "services/web/packages/mahjong-board-3d/src/engine/tile-surface.ts",
+  "surfaceSourceSha256": "793ebd3deccd15910fe1fe4cb455c1a149444d5132c00d6142de9c6c8cdad805",
+  "surface": {
+    "shellRoughness": 0.3,
+    "faceRoughness": 0.4,
+    "inkRoughness": 0.6,
+    "shellCoat": 0.35,
+    "faceCoat": 0.25,
+    "inkCoat": 0.006
+  },
+  "directionShaderSha256": "ed15fb4d0d82cf7dd5d4cb8bf79ec83155182041bf7b7b4a8e207f101870cda1",
+  "palette": {
+    "face": "#f4f1e7",
+    "ivory": "#f0ede3",
+    "ivoryDepth": "#e9e7dc",
+    "blue": "#507eac",
+    "blueDepth": "#3d648a",
+    "seam": "#586e7c"
+  },
+  "lighting": {
+    "height": 18,
+    "shellBounce": 0.61,
+    "faceBounce": 0.82,
+    "shellSky": 0.74,
+    "faceSky": 0.9,
+    "sourceVariance": 0.06,
+    "sourceRadiance": 3.2
+  }
+}

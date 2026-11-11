@@ -1,0 +1,19 @@
+* text=auto
+/gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.png binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.svg text eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.glsl text eol=lf
+*.vsh text eol=lf
+*.fsh text eol=lf

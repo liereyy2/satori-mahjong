@@ -1,0 +1,24 @@
+// Prune generated release history on every compile/package invocation, on both loaders.
+def pruneArtifacts = tasks.register('pruneBuildArtifacts') {
+    group = 'build'
+    description = 'Keep only the current mod version in generated JAR and distribution directories.'
+    doLast {
+        def current = "${base.archivesName.get()}-${project.version}"
+        ['libs', 'devlibs'].each { folder ->
+            def directory = layout.buildDirectory.dir(folder).get().asFile
+            if (directory.isDirectory()) directory.eachFile { artifact ->
+                if (artifact.name.startsWith('satori-mahjong-')
+                        && !(artifact.name == "${current}.jar" || artifact.name.startsWith("${current}.jar.")
+                             || artifact.name.startsWith("${current}-")))
+                    delete artifact
+            }
+        }
+        def releases = layout.buildDirectory.dir('distributions').get().asFile
+        if (releases.isDirectory()) releases.eachFile { release ->
+            if (release.name != project.version.toString()) delete release
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach { dependsOn pruneArtifacts }
+tasks.withType(AbstractArchiveTask).configureEach { dependsOn pruneArtifacts }
+tasks.named('build') { dependsOn pruneArtifacts }

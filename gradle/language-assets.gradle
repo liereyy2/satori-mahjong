@@ -1,0 +1,17 @@
+// Chinese locale aliases share one maintained translation source; other locales use en_us.
+def modRoot = file(project.hasProperty('tileAssetsRoot') ? project.tileAssetsRoot : '.')
+def chinese = new File(modRoot, 'src/main/resources/assets/satori_mahjong/lang/zh_cn.json')
+def generated = layout.buildDirectory.dir('generated/chinese-locales')
+def generateChineseLocales = tasks.register('generateChineseLocales') {
+    inputs.file chinese
+    outputs.dir generated
+    doLast {
+        def directory = new File(generated.get().asFile, 'assets/satori_mahjong/lang')
+        directory.mkdirs()
+        ['zh_hk', 'zh_tw'].each { new File(directory, "${it}.json").bytes = chinese.bytes }
+    }
+}
+tasks.matching { it.name in ['processResources', 'processSmokeResources'] }.configureEach {
+    dependsOn generateChineseLocales
+    from generated
+}

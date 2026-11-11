@@ -1,0 +1,395 @@
+{
+  "schema": 3,
+  "surfaceEncoding": "roughness-coating-linear",
+  "surfaceWidth": 192,
+  "surfaceHeight": 264,
+  "appearance": "shared resin face",
+  "appearanceSource": "services/web/packages/mahjong-board-3d/src/engine/tile-appearance.ts",
+  "appearanceSourceSha256": "bd6323a384c455de50faaddf1d5fd58a04f98ba2ae5a0d5133706d168f88a353",
+  "width": 384,
+  "height": 528,
+  "padding": 32,
+  "renderer": "Chromium 151.0.7922.34",
+  "tiles": [
+    {
+      "id": 0,
+      "surfaceTexture": "0_surface.png",
+      "surfaceSha256": "75ebcffb08b56545ceb63443282af45dbccbafd7fbeb019fc759d515b95da5c4",
+      "source": "services/web/packages/tile-kit/src/assets/1m.svg",
+      "sourceSha256": "9b8c52bef39c94b3fac5b1f2a4b6193cd7d8736f79d2c2ae764dd7342f7190b3",
+      "texture": "0.png",
+      "textureSha256": "98f48dcd09fbf20a736d9c5916cea5666fb7777ee6697713d4c9cb637a7c1133",
+      "concealed": false
+    },
+    {
+      "id": 1,
+      "surfaceTexture": "1_surface.png",
+      "surfaceSha256": "f2f1e95591c0efd26c7b09d9d3cb7ca57d60720613d06c62670502da69a2d6fa",
+      "source": "services/web/packages/tile-kit/src/assets/2m.svg",
+      "sourceSha256": "db430b747ebe8e3ad8bc152c6381a0a71c40f94da27be702a2a2aa8e8924cd10",
+      "texture": "1.png",
+      "textureSha256": "57c1133d147f8354a06ac2233f6ba42b4c8549111faca737df0ffdc3ba0b1bd7",
+      "concealed": false
+    },
+    {
+      "id": 2,
+      "surfaceTexture": "2_surface.png",
+      "surfaceSha256": "8fedb6fe90936a0d85b5ddd8a3c55a7b58b8c4244d9718922070c9a6101e9192",
+      "source": "services/web/packages/tile-kit/src/assets/3m.svg",
+      "sourceSha256": "6c8b4af104169189305f2c0eb465a0ac98a7d7c70dc7d40a70f840d780bbd92e",
+      "texture": "2.png",
+      "textureSha256": "f1dfc2ee2fc806d29d1b0e3f97f04d589f72b105b1ba672cfc4eb1ba1581f851",
+      "concealed": false
+    },
+    {
+      "id": 3,
+      "surfaceTexture": "3_surface.png",
+      "surfaceSha256": "0cdc183770ddc3d4f4106a63da120bf514927548366166e128944ca3d90be257",
+      "source": "services/web/packages/tile-kit/src/assets/4m.svg",
+      "sourceSha256": "a65cde442a6b15e5f33a8dbe753f5d8a30ec1d07f917edc784186e0bdf3abb2e",
+      "texture": "3.png",
+      "textureSha256": "075df99c4db0f107c298cfc7914173e69d2577bb70608dab286203dbe5ce0347",
+      "concealed": false
+    },
+    {
+      "id": 4,
+      "surfaceTexture": "4_surface.png",
+      "surfaceSha256": "22085b26b456fd7fec912f8de03a857f1097254a414e78ded9dd5f3be49db8d0",
+      "source": "services/web/packages/tile-kit/src/assets/5m.svg",
+      "sourceSha256": "88687841beb6eda143d2a973aaa9e2af9a8896472a9b0260d5c4d198a160bba5",
+      "texture": "4.png",
+      "textureSha256": "6b507a6c47d8f36c06f46e1fe2e3362007a3e5f62e81207e37b37387f8bdf7d8",
+      "concealed": false
+    },
+    {
+      "id": 5,
+      "surfaceTexture": "5_surface.png",
+      "surfaceSha256": "9def3223dfbb7d96a0a43c5c525ee111045e711223448f5109706d2cb4907657",
+      "source": "services/web/packages/tile-kit/src/assets/6m.svg",
+      "sourceSha256": "279df4110edaee428a00df4115df4de7f99829cc9e4f4b259e61036cae8fe0d3",
+      "texture": "5.png",
+      "textureSha256": "10930bb933733c81b0d691cd0f739785db9d043e2bf7b4d7b2dced9580c7b8c2",
+      "concealed": false
+    },
+    {
+      "id": 6,
+      "surfaceTexture": "6_surface.png",
+      "surfaceSha256": "15919f345a7446a9217c8c03d09c71d01189cb0325454dfa6f8f5ce382ef87ba",
+      "source": "services/web/packages/tile-kit/src/assets/7m.svg",
+      "sourceSha256": "a5a1a19ef1156d4bc33d5ae0551806f683cf959b90b244f9fa90ae1bf6402485",
+      "texture": "6.png",
+      "textureSha256": "2692d0852c990e22ca1826a8dd0bd0d3c4a7156f9c0241bf50e0d7710bd85e56",
+      "concealed": false
+    },
+    {
+      "id": 7,
+      "surfaceTexture": "7_surface.png",
+      "surfaceSha256": "dbc1d36e94c91d7af13fddd0f853eb421a08ba0cc7d0241c4c07a646c9be19a8",
+      "source": "services/web/packages/tile-kit/src/assets/8m.svg",
+      "sourceSha256": "28babd56acfb1f710c78a50e962edc48af5f739035fbf1f5f5ce62da9c196ec5",
+      "texture": "7.png",
+      "textureSha256": "0a8f387ec86aa40c8c6fbeb39fb5e3b4a5b511ead652ed44eb5ceee79dd07b4f",
+      "concealed": false
+    },
+    {
+      "id": 8,
+      "surfaceTexture": "8_surface.png",
+      "surfaceSha256": "f0be238a0619c6ed3bb36da99892df2687a7ab3de20ad78f9dc27afc5bae819d",
+      "source": "services/web/packages/tile-kit/src/assets/9m.svg",
+      "sourceSha256": "0b31a26657af8ecfd330332068c22c69516e43ac31a8f3bdfeff19a994088c23",
+      "texture": "8.png",
+      "textureSha256": "789c22cf4706d1677fb3c8a3d9fbd2046deedb5a6ad1dd264eee1a9f34e8a601",
+      "concealed": false
+    },
+    {
+      "id": 9,
+      "surfaceTexture": "9_surface.png",
+      "surfaceSha256": "4ede95e439075a540e80d5a257439551332ee3abf88e0213293cd6d4ebab694a",
+      "source": "services/web/packages/tile-kit/src/assets/1p.svg",
+      "sourceSha256": "477c6311f8c3e8456a8ca510a6b6ee4d146ecc4ef2d51cb801575e5b55122175",
+      "texture": "9.png",
+      "textureSha256": "fae894f97ed16430a75dd9fb9e436cff73287219f890608133e04624cdcb40e9",
+      "concealed": false
+    },
+    {
+      "id": 10,
+      "surfaceTexture": "10_surface.png",
+      "surfaceSha256": "1a7fbff99d9bce1df68f17443408347060f7cd6f647afd87f2f8d8ba28d6b720",
+      "source": "services/web/packages/tile-kit/src/assets/2p.svg",
+      "sourceSha256": "518a4f1831a7743a12898a81c14b91edad909f264dcd410ff7a074975ee0188a",
+      "texture": "10.png",
+      "textureSha256": "fea21e84a239ce522160e6331f18774c3e8aee94d2f7b4e2420a552b2237fdf5",
+      "concealed": false
+    },
+    {
+      "id": 11,
+      "surfaceTexture": "11_surface.png",
+      "surfaceSha256": "86b81b62a6ccfc20ac3dc138d7b83198028ec5136014ed236aedd4e9e36e7e1b",
+      "source": "services/web/packages/tile-kit/src/assets/3p.svg",
+      "sourceSha256": "0d57651db6c2d96a99d65a44bdd21e5f550336580310edec029428494326759f",
+      "texture": "11.png",
+      "textureSha256": "9c1ac5b2b562d5b644297e7992041aa84dd6f9d61f4b49ebd9ad540489cef491",
+      "concealed": false
+    },
+    {
+      "id": 12,
+      "surfaceTexture": "12_surface.png",
+      "surfaceSha256": "1c6bd39f3a51bf958da88abf94f4355c70c9913fe04b23948f5a9a1239539f77",
+      "source": "services/web/packages/tile-kit/src/assets/4p.svg",
+      "sourceSha256": "c9231df1f9a83b90ca3e7c333ca56a11bc323a9e765702714a273a58797aaef0",
+      "texture": "12.png",
+      "textureSha256": "1457010555c6145cae8824150a70d2051cdafa5f51a708a25a8e171c029fdbd2",
+      "concealed": false
+    },
+    {
+      "id": 13,
+      "surfaceTexture": "13_surface.png",
+      "surfaceSha256": "f393d83e46349ba9a7c1416ae7eb90df2a3b3c84efee13162f2292ebb2ccd0f4",
+      "source": "services/web/packages/tile-kit/src/assets/5p.svg",
+      "sourceSha256": "5574c14b911befee26b821147d54f6d92cafd66f272e1da5c12a63a0143bc213",
+      "texture": "13.png",
+      "textureSha256": "fc8f86d90b0137602354df3b1f7bdd3dbba8f19c60f8c9cb52faa62acdc75e8b",
+      "concealed": false
+    },
+    {
+      "id": 14,
+      "surfaceTexture": "14_surface.png",
+      "surfaceSha256": "e4b8a8d42b3a0f6b3a306bd8c8b2224d175aa62c73dd8df8251edc9b8c8ee97b",
+      "source": "services/web/packages/tile-kit/src/assets/6p.svg",
+      "sourceSha256": "38605c2f30a762fada49d4d4ba1b2beb8a707469478ec173b800be06b95562ad",
+      "texture": "14.png",
+      "textureSha256": "8cdc42d8a7679fe1dc75ad24a572f58cd47333f05a2f9d331340cbaa88900ef6",
+      "concealed": false
+    },
+    {
+      "id": 15,
+      "surfaceTexture": "15_surface.png",
+      "surfaceSha256": "27f1f61cea638e8aa0aae8359a411bcb356c47de9e663a0253d160dee05667c0",
+      "source": "services/web/packages/tile-kit/src/assets/7p.svg",
+      "sourceSha256": "97efa9eec79944518511a4f461f1468490a95ca13b3d952eff1ca02bb05b4589",
+      "texture": "15.png",
+      "textureSha256": "890eeade27d4326f05ce1cd1d4c8dadb274990f974ae628b16f1ce20a869660f",
+      "concealed": false
+    },
+    {
+      "id": 16,
+      "surfaceTexture": "16_surface.png",
+      "surfaceSha256": "ed203ec2692c862e077fed770156aa5d57100732420480d4428ed0aee4a1cd9d",
+      "source": "services/web/packages/tile-kit/src/assets/8p.svg",
+      "sourceSha256": "523b82c7c4a7cd8999780a7b3b5a7b6670eaf86eb1a8e9ad1317b43c6d8f81d8",
+      "texture": "16.png",
+      "textureSha256": "65a8b85aed63767de7b88eb678a26573b9b344283d6311c889d6bed635c2482f",
+      "concealed": false
+    },
+    {
+      "id": 17,
+      "surfaceTexture": "17_surface.png",
+      "surfaceSha256": "ae18981ca3c6cdeb8496e6f15e993909dacbd1b587425d5e8fc9f147c4fdfbda",
+      "source": "services/web/packages/tile-kit/src/assets/9p.svg",
+      "sourceSha256": "ffd648051b26c2afd770120c9405d7eec550fdb7f7b42406feadb0969f277087",
+      "texture": "17.png",
+      "textureSha256": "7ec15867c6c00c1ccf8523c438c5d3a6332fd9cdbcfdad1f3b2b1622d9e0f103",
+      "concealed": false
+    },
+    {
+      "id": 18,
+      "surfaceTexture": "18_surface.png",
+      "surfaceSha256": "451f673adc971a679a452a55874acbf2a83d6a136aa6d3563498b2e20b390860",
+      "source": "services/web/packages/tile-kit/src/assets/1s.svg",
+      "sourceSha256": "2c50459c118560dbbe90f38006d636c1cf83c7e31128fed32e4df30f3c543d6c",
+      "texture": "18.png",
+      "textureSha256": "5d6e9f6d97034bbafe600f092c672666337c2a64ece11daa6df26a17e280ecbe",
+      "concealed": false
+    },
+    {
+      "id": 19,
+      "surfaceTexture": "19_surface.png",
+      "surfaceSha256": "b30bdc0641c17f0779209025fac76a62108417bc73ea32ed964de402ecab8c42",
+      "source": "services/web/packages/tile-kit/src/assets/2s.svg",
+      "sourceSha256": "fdc5a6860051ae60f815c4acfaa3ade2b2a067a3b7518b6096f8e9356a650e04",
+      "texture": "19.png",
+      "textureSha256": "02c2aacb0bba51162d1b665629642148f87e0ebbb038a0159d904631031c88a4",
+      "concealed": false
+    },
+    {
+      "id": 20,
+      "surfaceTexture": "20_surface.png",
+      "surfaceSha256": "212dcd2be94cf284407971e8dda23c9e3437cac374fd48864379b11777f04ebd",
+      "source": "services/web/packages/tile-kit/src/assets/3s.svg",
+      "sourceSha256": "d0f26555368992a285f0ae3f3588d6229518a25fa212466627134f54cc6a3bac",
+      "texture": "20.png",
+      "textureSha256": "20b9fdd84891e2ffe9ce6139975ae3e0ac9dedf5ff7297d784c709b6c07087aa",
+      "concealed": false
+    },
+    {
+      "id": 21,
+      "surfaceTexture": "21_surface.png",
+      "surfaceSha256": "664926221d74c2ec28fe5c6a967457997b8fa2b67cf5e9dc0cd997b35cd4928a",
+      "source": "services/web/packages/tile-kit/src/assets/4s.svg",
+      "sourceSha256": "c0861613ee9a6eda77f29a7e685068dd0619bc7aefcc6fcd8d7356782043a518",
+      "texture": "21.png",
+      "textureSha256": "dae1b87cfea935305b0e32af97a0c37ed50bb105a144824f0aa58c252a7edab2",
+      "concealed": false
+    },
+    {
+      "id": 22,
+      "surfaceTexture": "22_surface.png",
+      "surfaceSha256": "dc5bed2662d6a899f6924c326a422b36e7f2ae805077f2e146477a4db7e43f84",
+      "source": "services/web/packages/tile-kit/src/assets/5s.svg",
+      "sourceSha256": "cbd9b02c63976954d44b373966c886c457a5903262a2fb9ea958450d86746144",
+      "texture": "22.png",
+      "textureSha256": "592f9def72814770224351814e9bcc631fa81adeb93ee8cc66a437abeb5bb456",
+      "concealed": false
+    },
+    {
+      "id": 23,
+      "surfaceTexture": "23_surface.png",
+      "surfaceSha256": "e0671c5c5434d09f4342b2adfff4d7799150b248aa56447ede7d697ef5ab2df8",
+      "source": "services/web/packages/tile-kit/src/assets/6s.svg",
+      "sourceSha256": "cf6489ecb0ff073efd94d76b4281e91711e74e3b5eb14c641f8c5e71c2d335b5",
+      "texture": "23.png",
+      "textureSha256": "b2ff8c4fa1b032b5b10707dbc91695511355e2bbffe731d36960eb8b9a0c020b",
+      "concealed": false
+    },
+    {
+      "id": 24,
+      "surfaceTexture": "24_surface.png",
+      "surfaceSha256": "ee438dbceb18a076974201bcbaef3d904ac2addae1fec6402854e0293df70c88",
+      "source": "services/web/packages/tile-kit/src/assets/7s.svg",
+      "sourceSha256": "9afdfc3cef41b3012895d90c1fc34c7c33111171d2a3ea248fbb8ec441009426",
+      "texture": "24.png",
+      "textureSha256": "6201eb658c46a1f9be0249963740eee4ac5a61f786ca4a00d8368b673ed1008e",
+      "concealed": false
+    },
+    {
+      "id": 25,
+      "surfaceTexture": "25_surface.png",
+      "surfaceSha256": "aecf6c47560e42ae64935ed557d85709908995afe49d423e8c6e915f03de55c7",
+      "source": "services/web/packages/tile-kit/src/assets/8s.svg",
+      "sourceSha256": "dccec0736c9855c6ccc628238b49afb343f68797302f4129861cb3fc451f8d61",
+      "texture": "25.png",
+      "textureSha256": "e2157d5242cc6fd53ba402b7fc900b77a1c8e6a3de3b154ee042b3b1792c819e",
+      "concealed": false
+    },
+    {
+      "id": 26,
+      "surfaceTexture": "26_surface.png",
+      "surfaceSha256": "fffdd5f682ea0e2d9136930dc922ca597ad0d703b59a7deb46f6624fd3bc090d",
+      "source": "services/web/packages/tile-kit/src/assets/9s.svg",
+      "sourceSha256": "5a3369477214b72ddc727130abd0a97126cbaf703eb5ad3226a5b1083dc6635b",
+      "texture": "26.png",
+      "textureSha256": "4b4f86c2912224f995579aa50dbb3ea62c86d29ea8710eef54a2cdbd265f6d16",
+      "concealed": false
+    },
+    {
+      "id": 27,
+      "surfaceTexture": "27_surface.png",
+      "surfaceSha256": "ed30c3db1ea11704f9f01e0758028444931a2a7ea8f14c8c4003c6583f1d8f8c",
+      "source": "services/web/packages/tile-kit/src/assets/1z.svg",
+      "sourceSha256": "955eba50b3de787ffad2eaa09a1f7ecaae487bc0afef253fd29e4a93e7dd76df",
+      "texture": "27.png",
+      "textureSha256": "4c1e098d2e22b793b59a30b1adc24c09fd6ad4b842b22589b0f5181f8838fe76",
+      "concealed": false
+    },
+    {
+      "id": 28,
+      "surfaceTexture": "28_surface.png",
+      "surfaceSha256": "7670ebc627c653b2d222e027297bb12287fa1a2de9ae3585ba4c0f254283b271",
+      "source": "services/web/packages/tile-kit/src/assets/2z.svg",
+      "sourceSha256": "28a3fe9e6226016c09539150bd40c22af6e006ed1ae23ef8f7e8dccd7d891f9b",
+      "texture": "28.png",
+      "textureSha256": "e64db4879c4c31c3a0995852febc9e398d428cd2c7739dec9050df071a908617",
+      "concealed": false
+    },
+    {
+      "id": 29,
+      "surfaceTexture": "29_surface.png",
+      "surfaceSha256": "25c44a5edec534754239c55689891638b9ce83d2045f7aa74fa33edcd656e2df",
+      "source": "services/web/packages/tile-kit/src/assets/3z.svg",
+      "sourceSha256": "10d4b6e7e8cbe8410f376c28b8892ecab5b03c1f8d89db93acf0da2302523577",
+      "texture": "29.png",
+      "textureSha256": "5b1910c800ae2a9676301b966034881094af008ada94f8769afa64b59660aaa0",
+      "concealed": false
+    },
+    {
+      "id": 30,
+      "surfaceTexture": "30_surface.png",
+      "surfaceSha256": "d3c613277c84d9282a653a7c7e3410e21564dcd7f19608912933dba83e9cfedc",
+      "source": "services/web/packages/tile-kit/src/assets/4z.svg",
+      "sourceSha256": "a8efd3f32aa46c70a04233d499097ab75ec221635bdf68e8ee2817cb0c45d824",
+      "texture": "30.png",
+      "textureSha256": "a797afc9e0a0f6388527f903ec056243b423a42c29ea3457a915cef707931a37",
+      "concealed": false
+    },
+    {
+      "id": 31,
+      "surfaceTexture": "31_surface.png",
+      "surfaceSha256": "3cdf72a15849fff5ae064ae1daa5506a908af0b2255612678b0ae7c204de1499",
+      "source": "services/web/packages/tile-kit/src/assets/5z.svg",
+      "sourceSha256": "d6023d8cf3b810b74b2f7c14a4254dd7a65c57b9389e63f90aed8f6cd3607032",
+      "texture": "31.png",
+      "textureSha256": "c27e5a3ca6c597650dfd3f886ba773c9841a83907043567eddcbac186f7b2345",
+      "concealed": false
+    },
+    {
+      "id": 32,
+      "surfaceTexture": "32_surface.png",
+      "surfaceSha256": "99f504edae35c68de6cc379f550c020c7a57a725b138a263a9017e77b7f118ea",
+      "source": "services/web/packages/tile-kit/src/assets/6z.svg",
+      "sourceSha256": "9197066680636f5d6b43e49b687103e7b347334f5ea838220edb41ec803e3ad9",
+      "texture": "32.png",
+      "textureSha256": "38bda167f6dfbdc306c747a7b4d871bd375372cc12f579ca91716b22daf3f085",
+      "concealed": false
+    },
+    {
+      "id": 33,
+      "surfaceTexture": "33_surface.png",
+      "surfaceSha256": "f1df805ae58757dbb8a9decf5676ab10e5d1c838e5368362e8aae711c675175d",
+      "source": "services/web/packages/tile-kit/src/assets/7z.svg",
+      "sourceSha256": "7aecefcb257e5278cf3d4d0d9d03b16c3c6e3ba4080d54f60d424c3f35ffd5bb",
+      "texture": "33.png",
+      "textureSha256": "4458ea39f77c3f84d56cf758b685181dbab7f4f21a0fc2aa806d735c861a69fa",
+      "concealed": false
+    },
+    {
+      "id": 34,
+      "surfaceTexture": "34_surface.png",
+      "surfaceSha256": "6d33dc83a03a9af3218c976c1e6f0bced4d653c9ad83ab15175600eebdc7a043",
+      "source": "services/web/packages/tile-kit/src/assets/0m.svg",
+      "sourceSha256": "8fbe07ba977dbaf7644b13514d89084a41fab9ad828a9b9d7be73066fb84a5be",
+      "texture": "34.png",
+      "textureSha256": "4471c11a1ba43057198afe081036bda413769c643a7b9b6fe50b5deeff6e19ca",
+      "concealed": false
+    },
+    {
+      "id": 35,
+      "surfaceTexture": "35_surface.png",
+      "surfaceSha256": "545a1c389b619419e1006f7430131fd0529c858dfb6968b1b5190ff90dcc945e",
+      "source": "services/web/packages/tile-kit/src/assets/0p.svg",
+      "sourceSha256": "39808d4a76fd303b55bf77bdffca8b57049dc4dbea67ca374a1399397544da21",
+      "texture": "35.png",
+      "textureSha256": "953321a0811c8bde2414462bc42e3f9bd74ce1b69344797676999d5ae6ee8ff8",
+      "concealed": false
+    },
+    {
+      "id": 36,
+      "surfaceTexture": "36_surface.png",
+      "surfaceSha256": "92ffea7b52608bec2020f99d717f677bfbfe10c6d32bb88f8744ba42b234e73b",
+      "source": "services/web/packages/tile-kit/src/assets/0s.svg",
+      "sourceSha256": "b39b163d23b4bbf14ecad232bee7fd09947913a136989b004e44203dfd39b023",
+      "texture": "36.png",
+      "textureSha256": "a6d8f74639293da1fbe67442b183683aa9903dbbb362883607298c50aa5ef645",
+      "concealed": false
+    },
+    {
+      "id": 37,
+      "surfaceTexture": "37_surface.png",
+      "surfaceSha256": "ee826fe4cd62eaa4df0c39d840b51ad145a53e39c63a160b19a1c60331f8e379",
+      "source": "services/web/packages/tile-kit/src/assets/blank.svg",
+      "sourceSha256": "b8a1a2a102dfac266c49b32beba8835efe30f6528712a1b29b5974f7cfaae433",
+      "texture": "37.png",
+      "textureSha256": "5f52af8877aa9c1bee90ed27d49bf95b39fd23a71090292d4b7b47a679fd317f",
+      "concealed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "CPU only: per table four public metadata payloads and one actual Rust observer update batch; no HTTP or network delivery",
+  "cases": [
+    {
+      "tables": 1,
+      "samples": 100,
+      "bytes": 11389,
+      "mean_ms": 1.13704018,
+      "p50_ms": 1.25836,
+      "p95_ms": 1.484983
+    },
+    {
+      "tables": 4,
+      "samples": 100,
+      "bytes": 45556,
+      "mean_ms": 2.8100225,
+      "p50_ms": 2.725607,
+      "p95_ms": 4.37605
+    },
+    {
+      "tables": 16,
+      "samples": 100,
+      "bytes": 182224,
+      "mean_ms": 7.127765890000001,
+      "p50_ms": 6.868516,
+      "p95_ms": 8.523119
+    }
+  ]
+}

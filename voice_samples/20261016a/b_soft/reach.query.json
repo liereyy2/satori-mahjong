@@ -1,0 +1,90 @@
+{
+  "original": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "リ",
+            "vowel": "i",
+            "vowel_length": 0.10150552541017532,
+            "pitch": 5.613709449768066,
+            "consonant": "r",
+            "consonant_length": 0.04508184641599655
+          },
+          {
+            "text": "イ",
+            "vowel": "i",
+            "vowel_length": 0.10689384490251541,
+            "pitch": 5.817185878753662,
+            "consonant": null,
+            "consonant_length": null
+          },
+          {
+            "text": "チ",
+            "vowel": "i",
+            "vowel_length": 0.15348514914512634,
+            "pitch": 5.4447832107543945,
+            "consonant": "ch",
+            "consonant_length": 0.1057758703827858
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": 0.0,
+    "intonation_scale": 1.0,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.10000000149011612,
+    "post_phoneme_length": 0.10000000149011612,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "リ'イチ"
+  },
+  "tuned": {
+    "accent_phrases": [
+      {
+        "moras": [
+          {
+            "text": "リ",
+            "vowel": "i",
+            "vowel_length": 0.10375889135728297,
+            "pitch": 5.613709449768066,
+            "consonant": "r",
+            "consonant_length": 0.04508184641599655
+          },
+          {
+            "text": "イ",
+            "vowel": "i",
+            "vowel_length": 0.10926682853158777,
+            "pitch": 5.817185878753662,
+            "consonant": null,
+            "consonant_length": null
+          },
+          {
+            "text": "チ",
+            "vowel": "i",
+            "vowel_length": 0.15689243369513267,
+            "pitch": 5.4447832107543945,
+            "consonant": "ch",
+            "consonant_length": 0.065
+          }
+        ],
+        "accent": 1,
+        "pause_mora": null,
+        "is_interrogative": false
+      }
+    ],
+    "speed_scale": 1.0,
+    "pitch_scale": -0.025,
+    "intonation_scale": 0.75,
+    "volume_scale": 1.0,
+    "pre_phoneme_length": 0.015,
+    "post_phoneme_length": 0.035,
+    "output_sampling_rate": 24000,
+    "output_stereo": false,
+    "kana": "リ'イチ"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "call.chi": {
+    "subtitle": "satori.call.chi",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/chi",
+        "preload": true
+      }
+    ]
+  },
+  "call.pon": {
+    "subtitle": "satori.call.pon",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/pon",
+        "preload": true
+      }
+    ]
+  },
+  "call.kan": {
+    "subtitle": "satori.call.kan",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/kan",
+        "preload": true
+      }
+    ]
+  },
+  "call.reach": {
+    "subtitle": "satori.call.reach",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/reach",
+        "preload": true
+      }
+    ]
+  },
+  "call.ron": {
+    "subtitle": "satori.call.ron",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/ron",
+        "preload": true
+      }
+    ]
+  },
+  "call.tsumo": {
+    "subtitle": "satori.call.tsumo",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/tsumo",
+        "preload": true
+      }
+    ]
+  },
+  "call.ryukyoku": {
+    "subtitle": "satori.call.ryukyoku",
+    "sounds": [
+      {
+        "name": "satori_mahjong:calls/ryukyoku",
+        "preload": true
+      }
+    ]
+  },
+  "tile.draw": {
+    "sounds": [
+      {
+        "name": "satori_mahjong:tiles/draw",
+        "preload": true
+      }
+    ]
+  },
+  "tile.discard": {
+    "sounds": [
+      {
+        "name": "satori_mahjong:tiles/discard",
+        "preload": true
+      }
+    ]
+  }
+}

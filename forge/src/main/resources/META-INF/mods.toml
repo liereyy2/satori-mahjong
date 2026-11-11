@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="satori_mahjong"
+version="${version}"
+displayName="SatoriMahjong"
+displayURL="https://mj.satori-ai.cn"
+authors="Satori"
+description='''Cloud riichi mahjong at a private, animated 3D table. Sign in with your Satori account.'''
+
+[[dependencies.satori_mahjong]]
+modId="forge"
+mandatory=true
+versionRange="[61.2.0,62)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.satori_mahjong]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.11]"
+ordering="NONE"
+side="BOTH"

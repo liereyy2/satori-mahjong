@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CLC",
+    "CCC"
+  ],
+  "key": {
+    "C": "#minecraft:wool_carpets",
+    "L": "#minecraft:logs"
+  },
+  "result": {
+    "id": "satori_mahjong:table",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "https://cdn.tenhou.net/4/latest.js",
+  "verified": "2026-11-01",
+  "eye": [0, 200, 600],
+  "target": [0, 53, 0],
+  "horizontalFov": 30,
+  "handHorizontalFov": 30,
+  "projectionAspect": 1.33,
+  "frameAspect": 1.3333333333333333,
+  "tileWidth": 11.8,
+  "step": 12,
+  "firstX": -72,
+  "rowZ": 139.1,
+  "slots": 14,
+  "presentation": {
+    "handPitch": 1,
+    "ownOffsetX": -0.3
+  }
+}

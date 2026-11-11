@@ -1,0 +1,773 @@
+{
+  "sichuan.basics.example": [
+    {
+      "id": "sc_basic",
+      "labelKey": "satori.help.sichuan.example.basic",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.pinghu": [
+    {
+      "id": "sc_pinghu",
+      "labelKey": "satori.help.sichuan.example.pinghu",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.duidui": [
+    {
+      "id": "sc_duidui",
+      "labelKey": "satori.help.sichuan.example.duidui",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            17,
+            17,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.qingyise": [
+    {
+      "id": "sc_qingyise",
+      "labelKey": "satori.help.sichuan.example.qingyise",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.qidui": [
+    {
+      "id": "sc_qidui",
+      "labelKey": "satori.help.sichuan.example.qidui",
+      "winMethod": "ron",
+      "winGroup": 6,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            2,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            6,
+            6
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            10
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            12,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            14,
+            14
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.longqidui": [
+    {
+      "id": "sc_longqidui",
+      "labelKey": "satori.help.sichuan.example.longqidui",
+      "winMethod": "ron",
+      "winGroup": 6,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            2,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            6,
+            6
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            10
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            12,
+            12
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.quandaiyao": [
+    {
+      "id": "sc_quandaiyao",
+      "labelKey": "satori.help.sichuan.example.quandaiyao",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            17,
+            17,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.jiangdui": [
+    {
+      "id": "sc_jiangdui",
+      "labelKey": "satori.help.sichuan.example.jiangdui",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            13,
+            13
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.jingou": [
+    {
+      "id": "sc_jingou",
+      "labelKey": "satori.help.sichuan.example.jingou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "pon",
+          "tiles": [
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "kind": "pon",
+          "tiles": [
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "kind": "pon",
+          "tiles": [
+            17,
+            17,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.gen": [
+    {
+      "id": "sc_gen",
+      "labelKey": "satori.help.sichuan.example.gen",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.zimo": [
+    {
+      "id": "sc_zimo",
+      "labelKey": "satori.help.sichuan.example.zimo",
+      "winMethod": "tsumo",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.rinshan": [
+    {
+      "id": "sc_rinshan",
+      "labelKey": "satori.help.sichuan.example.rinshan",
+      "winMethod": "tsumo",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "ankan",
+          "tiles": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.chankan": [
+    {
+      "id": "sc_chankan",
+      "labelKey": "satori.help.sichuan.example.chankan",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.haidi": [
+    {
+      "id": "sc_haidi",
+      "labelKey": "satori.help.sichuan.example.haidi",
+      "winMethod": "tsumo",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "sichuan.yaku.tiandi": [
+    {
+      "id": "sc_tiandi",
+      "labelKey": "satori.help.sichuan.example.tiandi",
+      "winMethod": "tsumo",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "hand",
+          "tiles": [
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

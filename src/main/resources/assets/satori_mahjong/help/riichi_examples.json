@@ -1,0 +1,1591 @@
+{
+  "basics.example": [
+    {
+      "id": "basic",
+      "labelKey": "satori.help.example.note.basic",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [11, 12, 13]
+        },
+        {
+          "kind": "hand",
+          "tiles": [23, 24, 25]
+        },
+        {
+          "kind": "hand",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "白"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.riichi": [
+    {
+      "id": "riichi",
+      "labelKey": "satori.help.example.note.riichi",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "riichi"
+      ],
+      "expected": [
+        "立直"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.tsumo": [
+    {
+      "id": "tsumo",
+      "labelKey": "satori.help.example.note.tsumo",
+      "winMethod": "tsumo",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "menzen_tsumo"
+      ],
+      "expected": [
+        "門前清自摸和"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.tanyao": [
+    {
+      "id": "tanyao",
+      "labelKey": "satori.help.example.note.tanyao",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [10, 11, 12]
+        },
+        {
+          "kind": "hand",
+          "tiles": [23, 24, 25]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "断幺九"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.yakuhai": [
+    {
+      "id": "yakuhai",
+      "labelKey": "satori.help.example.note.yakuhai",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "pon",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "白"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.pinfu": [
+    {
+      "id": "pinfu",
+      "labelKey": "satori.help.example.note.pinfu",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "平和"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.iipeikou": [
+    {
+      "id": "iipeikou",
+      "labelKey": "satori.help.example.note.iipeikou",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [23, 24, 25]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "一盃口"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.ippatsu": [
+    {
+      "id": "ippatsu",
+      "labelKey": "satori.help.example.note.ippatsu",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "riichi",
+        "ippatsu"
+      ],
+      "expected": [
+        "一発"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.haitei": [
+    {
+      "id": "haitei",
+      "labelKey": "satori.help.example.note.haitei",
+      "winMethod": "tsumo",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "menzen_tsumo",
+        "haitei"
+      ],
+      "expected": [
+        "海底摸月"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.houtei": [
+    {
+      "id": "houtei",
+      "labelKey": "satori.help.example.note.houtei",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "houtei"
+      ],
+      "expected": [
+        "河底撈魚"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.rinshan": [
+    {
+      "id": "rinshan",
+      "labelKey": "satori.help.example.note.rinshan",
+      "winMethod": "tsumo",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "minkan",
+          "tiles": [0, 0, 0, 0]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "rinshan"
+      ],
+      "expected": [
+        "嶺上開花"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chankan": [
+    {
+      "id": "chankan",
+      "labelKey": "satori.help.example.note.chankan",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "chankan"
+      ],
+      "expected": [
+        "槍槓"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.double_riichi": [
+    {
+      "id": "double_riichi",
+      "labelKey": "satori.help.example.note.double_riichi",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "double_riichi"
+      ],
+      "expected": [
+        "両立直"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chiitoitsu": [
+    {
+      "id": "chiitoitsu",
+      "labelKey": "satori.help.example.note.chiitoitsu",
+      "winMethod": "ron",
+      "winGroup": 6,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 0]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [6, 6]
+        },
+        {
+          "kind": "hand",
+          "tiles": [10, 10]
+        },
+        {
+          "kind": "hand",
+          "tiles": [14, 14]
+        },
+        {
+          "kind": "hand",
+          "tiles": [20, 20]
+        },
+        {
+          "kind": "hand",
+          "tiles": [33, 33]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "七対子"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.toitoi": [
+    {
+      "id": "toitoi",
+      "labelKey": "satori.help.example.note.toitoi",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [1, 1, 1]
+        },
+        {
+          "kind": "pon",
+          "tiles": [13, 13, 13]
+        },
+        {
+          "kind": "hand",
+          "tiles": [24, 24, 24]
+        },
+        {
+          "kind": "hand",
+          "tiles": [20, 20, 20]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "対々和"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.sanankou": [
+    {
+      "id": "sanankou",
+      "labelKey": "satori.help.example.note.sanankou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 1, 1]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13, 13]
+        },
+        {
+          "kind": "hand",
+          "tiles": [24, 24, 24]
+        },
+        {
+          "kind": "chi",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "三暗刻"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.sankantsu": [
+    {
+      "id": "sankantsu",
+      "labelKey": "satori.help.example.note.sankantsu",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "minkan",
+          "tiles": [0, 0, 0, 0]
+        },
+        {
+          "kind": "minkan",
+          "tiles": [13, 13, 13, 13]
+        },
+        {
+          "kind": "ankan",
+          "tiles": [24, 24, 24, 24]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "三槓子"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.sanshoku_doukou": [
+    {
+      "id": "sanshoku_doukou",
+      "labelKey": "satori.help.example.note.sanshoku_doukou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [6, 6, 6]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 15, 15]
+        },
+        {
+          "kind": "hand",
+          "tiles": [24, 24, 24]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "三色同刻"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.shousangen": [
+    {
+      "id": "shousangen",
+      "labelKey": "satori.help.example.note.shousangen",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "pon",
+          "tiles": [32, 32, 32]
+        },
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [24, 25, 26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [33, 33]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "小三元"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.honroutou": [
+    {
+      "id": "honroutou",
+      "labelKey": "satori.help.example.note.honroutou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [0, 0, 0]
+        },
+        {
+          "kind": "hand",
+          "tiles": [8, 8, 8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [9, 9, 9]
+        },
+        {
+          "kind": "hand",
+          "tiles": [33, 33, 33]
+        },
+        {
+          "kind": "hand",
+          "tiles": [28, 28]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "混老頭"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.sanshoku_doujun": [
+    {
+      "id": "sanshoku_doujun",
+      "labelKey": "satori.help.example.note.sanshoku_doujun",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "chi",
+          "tiles": [10, 11, 12]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [6, 7, 8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "三色同順"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.ittsuu": [
+    {
+      "id": "ittsuu",
+      "labelKey": "satori.help.example.note.ittsuu",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [6, 7, 8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [10, 11, 12]
+        },
+        {
+          "kind": "hand",
+          "tiles": [22, 22]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "一気通貫"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chanta": [
+    {
+      "id": "chanta",
+      "labelKey": "satori.help.example.note.chanta",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27, 27]
+        },
+        {
+          "kind": "hand",
+          "tiles": [26, 26, 26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [31, 31]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "混全帯幺九"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.ryanpeikou": [
+    {
+      "id": "ryanpeikou",
+      "labelKey": "satori.help.example.note.ryanpeikou",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [14, 15, 16]
+        },
+        {
+          "kind": "hand",
+          "tiles": [14, 15, 16]
+        },
+        {
+          "kind": "hand",
+          "tiles": [22, 22]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "二盃口"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.junchan": [
+    {
+      "id": "junchan",
+      "labelKey": "satori.help.example.note.junchan",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [18, 18, 18]
+        },
+        {
+          "kind": "hand",
+          "tiles": [26, 26, 26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [9, 9]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "純全帯幺九"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.honitsu": [
+    {
+      "id": "honitsu",
+      "labelKey": "satori.help.example.note.honitsu",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [6, 7, 8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "hand",
+          "tiles": [28, 28]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "混一色"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chinitsu": [
+    {
+      "id": "chinitsu",
+      "labelKey": "satori.help.example.note.chinitsu",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [6, 7, 8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [4, 4]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "清一色"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.kokushi": [
+    {
+      "id": "kokushi",
+      "labelKey": "satori.help.example.note.kokushi",
+      "winMethod": "ron",
+      "winGroup": 0,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 0]
+        },
+        {
+          "kind": "hand",
+          "tiles": [8]
+        },
+        {
+          "kind": "hand",
+          "tiles": [9]
+        },
+        {
+          "kind": "hand",
+          "tiles": [17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [18]
+        },
+        {
+          "kind": "hand",
+          "tiles": [26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27]
+        },
+        {
+          "kind": "hand",
+          "tiles": [28]
+        },
+        {
+          "kind": "hand",
+          "tiles": [29]
+        },
+        {
+          "kind": "hand",
+          "tiles": [30]
+        },
+        {
+          "kind": "hand",
+          "tiles": [31]
+        },
+        {
+          "kind": "hand",
+          "tiles": [32]
+        },
+        {
+          "kind": "hand",
+          "tiles": [33]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "国士無双"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.suuankou": [
+    {
+      "id": "suuankou",
+      "labelKey": "satori.help.example.note.suuankou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 1, 1]
+        },
+        {
+          "kind": "hand",
+          "tiles": [12, 12, 12]
+        },
+        {
+          "kind": "hand",
+          "tiles": [23, 23, 23]
+        },
+        {
+          "kind": "hand",
+          "tiles": [25, 25, 25]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "四暗刻"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.daisangen": [
+    {
+      "id": "daisangen",
+      "labelKey": "satori.help.example.note.daisangen",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "pon",
+          "tiles": [32, 32, 32]
+        },
+        {
+          "kind": "pon",
+          "tiles": [33, 33, 33]
+        },
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "大三元"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.shousuushi": [
+    {
+      "id": "shousuushi",
+      "labelKey": "satori.help.example.note.shousuushi",
+      "winMethod": "ron",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [27, 27, 27]
+        },
+        {
+          "kind": "pon",
+          "tiles": [28, 28, 28]
+        },
+        {
+          "kind": "pon",
+          "tiles": [29, 29, 29]
+        },
+        {
+          "kind": "hand",
+          "tiles": [12, 13, 14]
+        },
+        {
+          "kind": "hand",
+          "tiles": [30, 30]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "小四喜"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.daisuushi": [
+    {
+      "id": "daisuushi",
+      "labelKey": "satori.help.example.note.daisuushi",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [27, 27, 27]
+        },
+        {
+          "kind": "pon",
+          "tiles": [28, 28, 28]
+        },
+        {
+          "kind": "pon",
+          "tiles": [29, 29, 29]
+        },
+        {
+          "kind": "pon",
+          "tiles": [30, 30, 30]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "大四喜"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.tsuuiisou": [
+    {
+      "id": "tsuuiisou",
+      "labelKey": "satori.help.example.note.tsuuiisou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [27, 27, 27]
+        },
+        {
+          "kind": "pon",
+          "tiles": [28, 28, 28]
+        },
+        {
+          "kind": "pon",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "hand",
+          "tiles": [32, 32, 32]
+        },
+        {
+          "kind": "hand",
+          "tiles": [33, 33]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "字一色"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chinroutou": [
+    {
+      "id": "chinroutou",
+      "labelKey": "satori.help.example.note.chinroutou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [0, 0, 0]
+        },
+        {
+          "kind": "pon",
+          "tiles": [8, 8, 8]
+        },
+        {
+          "kind": "pon",
+          "tiles": [9, 9, 9]
+        },
+        {
+          "kind": "hand",
+          "tiles": [26, 26, 26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [18, 18]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "清老頭"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.ryuuiisou": [
+    {
+      "id": "ryuuiisou",
+      "labelKey": "satori.help.example.note.ryuuiisou",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "chi",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "pon",
+          "tiles": [23, 23, 23]
+        },
+        {
+          "kind": "pon",
+          "tiles": [25, 25, 25]
+        },
+        {
+          "kind": "pon",
+          "tiles": [32, 32, 32]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 19]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "緑一色"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.chuuren": [
+    {
+      "id": "chuuren",
+      "labelKey": "satori.help.example.note.chuuren",
+      "winMethod": "ron",
+      "winGroup": 2,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 0, 0]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [4, 4]
+        },
+        {
+          "kind": "hand",
+          "tiles": [5, 6, 7]
+        },
+        {
+          "kind": "hand",
+          "tiles": [8, 8, 8]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "九蓮宝燈"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.suukantsu": [
+    {
+      "id": "suukantsu",
+      "labelKey": "satori.help.example.note.suukantsu",
+      "winMethod": "tsumo",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "minkan",
+          "tiles": [0, 0, 0, 0]
+        },
+        {
+          "kind": "minkan",
+          "tiles": [13, 13, 13, 13]
+        },
+        {
+          "kind": "minkan",
+          "tiles": [19, 19, 19, 19]
+        },
+        {
+          "kind": "ankan",
+          "tiles": [26, 26, 26, 26]
+        },
+        {
+          "kind": "hand",
+          "tiles": [27, 27]
+        }
+      ],
+      "context": [
+        "rinshan"
+      ],
+      "expected": [
+        "四槓子"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.tenhou": [
+    {
+      "id": "tenhou",
+      "labelKey": "satori.help.example.note.tenhou",
+      "winMethod": "initial",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "first_draw"
+      ],
+      "expected": [
+        "天和"
+      ],
+      "roundWind": 27,
+      "seatWind": 27
+    }
+  ],
+  "yaku.chiihou": [
+    {
+      "id": "chiihou",
+      "labelKey": "satori.help.example.note.chiihou",
+      "winMethod": "tsumo",
+      "winGroup": 3,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [0, 1, 2]
+        },
+        {
+          "kind": "hand",
+          "tiles": [3, 4, 5]
+        },
+        {
+          "kind": "hand",
+          "tiles": [15, 16, 17]
+        },
+        {
+          "kind": "hand",
+          "tiles": [19, 20, 21]
+        },
+        {
+          "kind": "hand",
+          "tiles": [13, 13]
+        }
+      ],
+      "context": [
+        "first_draw"
+      ],
+      "expected": [
+        "地和"
+      ],
+      "roundWind": 27,
+      "seatWind": 28
+    }
+  ],
+  "yaku.counted": [
+    {
+      "id": "counted",
+      "labelKey": "satori.help.example.note.counted",
+      "winMethod": "tsumo",
+      "winGroup": 0,
+      "winIndex": 2,
+      "groups": [
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [1, 2, 3]
+        },
+        {
+          "kind": "hand",
+          "tiles": [4, 5, 6]
+        },
+        {
+          "kind": "hand",
+          "tiles": [34, 5, 6]
+        },
+        {
+          "kind": "hand",
+          "tiles": [7, 7]
+        }
+      ],
+      "context": [
+        "menzen_tsumo"
+      ],
+      "expected": [
+        "清一色",
+        "二盃口",
+        "断幺九",
+        "平和",
+        "門前清自摸和",
+        "赤宝牌"
+      ],
+      "roundWind": 27,
+      "seatWind": 28,
+      "expectedHan": 13
+    },
+    {
+      "id": "multiple",
+      "labelKey": "satori.help.example.note.multiple",
+      "winMethod": "ron",
+      "winGroup": 4,
+      "winIndex": 1,
+      "groups": [
+        {
+          "kind": "pon",
+          "tiles": [31, 31, 31]
+        },
+        {
+          "kind": "pon",
+          "tiles": [32, 32, 32]
+        },
+        {
+          "kind": "pon",
+          "tiles": [33, 33, 33]
+        },
+        {
+          "kind": "pon",
+          "tiles": [27, 27, 27]
+        },
+        {
+          "kind": "hand",
+          "tiles": [28, 28]
+        }
+      ],
+      "context": [],
+      "expected": [
+        "字一色",
+        "大三元"
+      ],
+      "roundWind": 27,
+      "seatWind": 28,
+      "expectedYakumanCount": 2
+    }
+  ]
+}

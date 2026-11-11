@@ -1,0 +1,8 @@
+{
+  "sourceRepository": "satori",
+  "sourceCommit": "b963da4d69df9250facc41212ac31abfc66984e6",
+  "sourceDirectory": "minecraft",
+  "snapshotDate": "2026-11-11",
+  "assetSourcePrefix": "asset-sources/",
+  "notes": "Snapshot of the working tree. Original source paths inside asset manifests are retained relative to asset-sources/."
+}

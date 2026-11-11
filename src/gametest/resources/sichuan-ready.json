@@ -1,0 +1,923 @@
+{
+  "view": {
+    "cursor": "00000000-0000-0000-0000-0000000002bd:0:2199023255810",
+    "decision": null,
+    "display": {
+      "decision_seat": 1,
+      "drawn_seats": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "reaction_discard": null,
+      "seat_names": [
+        "Player0",
+        "Player1",
+        "Player2",
+        "Player3"
+      ],
+      "standing_hint": {
+        "furiten": false,
+        "no_yaku": false,
+        "shanten": 0,
+        "waits": [
+          23,
+          26
+        ],
+        "yaku_waits": [
+          23,
+          26
+        ]
+      },
+      "wall": {
+        "dead_wall": [
+          9
+        ],
+        "deal": [
+          {
+            "index": 0,
+            "packet": 0,
+            "seat": 3,
+            "slot": 6
+          },
+          {
+            "index": 1,
+            "packet": 0,
+            "seat": 3,
+            "slot": 7
+          },
+          {
+            "index": 2,
+            "packet": 0,
+            "seat": 3,
+            "slot": 4
+          },
+          {
+            "index": 3,
+            "packet": 0,
+            "seat": 3,
+            "slot": 5
+          },
+          {
+            "index": 0,
+            "packet": 1,
+            "seat": 0,
+            "slot": 2
+          },
+          {
+            "index": 1,
+            "packet": 1,
+            "seat": 0,
+            "slot": 3
+          },
+          {
+            "index": 2,
+            "packet": 1,
+            "seat": 0,
+            "slot": 0
+          },
+          {
+            "index": 3,
+            "packet": 1,
+            "seat": 0,
+            "slot": 1
+          },
+          {
+            "index": 0,
+            "packet": 2,
+            "seat": 1,
+            "slot": 126
+          },
+          {
+            "index": 1,
+            "packet": 2,
+            "seat": 1,
+            "slot": 127
+          },
+          {
+            "index": 2,
+            "packet": 2,
+            "seat": 1,
+            "slot": 124
+          },
+          {
+            "index": 3,
+            "packet": 2,
+            "seat": 1,
+            "slot": 125
+          },
+          {
+            "index": 0,
+            "packet": 3,
+            "seat": 2,
+            "slot": 122
+          },
+          {
+            "index": 1,
+            "packet": 3,
+            "seat": 2,
+            "slot": 123
+          },
+          {
+            "index": 2,
+            "packet": 3,
+            "seat": 2,
+            "slot": 120
+          },
+          {
+            "index": 3,
+            "packet": 3,
+            "seat": 2,
+            "slot": 121
+          },
+          {
+            "index": 4,
+            "packet": 4,
+            "seat": 3,
+            "slot": 118
+          },
+          {
+            "index": 5,
+            "packet": 4,
+            "seat": 3,
+            "slot": 119
+          },
+          {
+            "index": 6,
+            "packet": 4,
+            "seat": 3,
+            "slot": 116
+          },
+          {
+            "index": 7,
+            "packet": 4,
+            "seat": 3,
+            "slot": 117
+          },
+          {
+            "index": 4,
+            "packet": 5,
+            "seat": 0,
+            "slot": 114
+          },
+          {
+            "index": 5,
+            "packet": 5,
+            "seat": 0,
+            "slot": 115
+          },
+          {
+            "index": 6,
+            "packet": 5,
+            "seat": 0,
+            "slot": 112
+          },
+          {
+            "index": 7,
+            "packet": 5,
+            "seat": 0,
+            "slot": 113
+          },
+          {
+            "index": 4,
+            "packet": 6,
+            "seat": 1,
+            "slot": 110
+          },
+          {
+            "index": 5,
+            "packet": 6,
+            "seat": 1,
+            "slot": 111
+          },
+          {
+            "index": 6,
+            "packet": 6,
+            "seat": 1,
+            "slot": 108
+          },
+          {
+            "index": 7,
+            "packet": 6,
+            "seat": 1,
+            "slot": 109
+          },
+          {
+            "index": 4,
+            "packet": 7,
+            "seat": 2,
+            "slot": 106
+          },
+          {
+            "index": 5,
+            "packet": 7,
+            "seat": 2,
+            "slot": 107
+          },
+          {
+            "index": 6,
+            "packet": 7,
+            "seat": 2,
+            "slot": 104
+          },
+          {
+            "index": 7,
+            "packet": 7,
+            "seat": 2,
+            "slot": 105
+          },
+          {
+            "index": 8,
+            "packet": 8,
+            "seat": 3,
+            "slot": 102
+          },
+          {
+            "index": 9,
+            "packet": 8,
+            "seat": 3,
+            "slot": 103
+          },
+          {
+            "index": 10,
+            "packet": 8,
+            "seat": 3,
+            "slot": 94
+          },
+          {
+            "index": 11,
+            "packet": 8,
+            "seat": 3,
+            "slot": 95
+          },
+          {
+            "index": 8,
+            "packet": 9,
+            "seat": 0,
+            "slot": 92
+          },
+          {
+            "index": 9,
+            "packet": 9,
+            "seat": 0,
+            "slot": 93
+          },
+          {
+            "index": 10,
+            "packet": 9,
+            "seat": 0,
+            "slot": 90
+          },
+          {
+            "index": 11,
+            "packet": 9,
+            "seat": 0,
+            "slot": 91
+          },
+          {
+            "index": 8,
+            "packet": 10,
+            "seat": 1,
+            "slot": 88
+          },
+          {
+            "index": 9,
+            "packet": 10,
+            "seat": 1,
+            "slot": 89
+          },
+          {
+            "index": 10,
+            "packet": 10,
+            "seat": 1,
+            "slot": 86
+          },
+          {
+            "index": 11,
+            "packet": 10,
+            "seat": 1,
+            "slot": 87
+          },
+          {
+            "index": 8,
+            "packet": 11,
+            "seat": 2,
+            "slot": 84
+          },
+          {
+            "index": 9,
+            "packet": 11,
+            "seat": 2,
+            "slot": 85
+          },
+          {
+            "index": 10,
+            "packet": 11,
+            "seat": 2,
+            "slot": 82
+          },
+          {
+            "index": 11,
+            "packet": 11,
+            "seat": 2,
+            "slot": 83
+          },
+          {
+            "index": 12,
+            "packet": 12,
+            "seat": 3,
+            "slot": 80
+          },
+          {
+            "index": 12,
+            "packet": 13,
+            "seat": 0,
+            "slot": 81
+          },
+          {
+            "index": 12,
+            "packet": 14,
+            "seat": 1,
+            "slot": 78
+          },
+          {
+            "index": 12,
+            "packet": 15,
+            "seat": 2,
+            "slot": 79
+          }
+        ],
+        "dealing": false,
+        "dice": [
+          6,
+          4
+        ],
+        "drawn_slots": [
+          11,
+          8,
+          13,
+          10
+        ],
+        "first_draw": 76,
+        "indicators": [],
+        "remaining": [
+          9
+        ],
+        "roller": 3,
+        "stack_from_right": 11,
+        "wall_seat": 0
+      }
+    },
+    "game_id": "00000000-0000-0000-0000-0000000002bd",
+    "owner_user_id": "00000000-0000-0000-0000-000000000001",
+    "pause_reason": null,
+    "private": {
+      "hand": [
+        {
+          "slot_id": "h-249-0-0",
+          "tile": "2s",
+          "tile_id": 19
+        },
+        {
+          "slot_id": "h-249-0-1",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-249-0-2",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-249-0-3",
+          "tile": "3s",
+          "tile_id": 20
+        },
+        {
+          "slot_id": "h-249-0-4",
+          "tile": "4s",
+          "tile_id": 21
+        },
+        {
+          "slot_id": "h-249-0-5",
+          "tile": "5s",
+          "tile_id": 22
+        },
+        {
+          "slot_id": "h-249-0-6",
+          "tile": "5s",
+          "tile_id": 22
+        },
+        {
+          "slot_id": "h-249-0-7",
+          "tile": "5s",
+          "tile_id": 22
+        },
+        {
+          "slot_id": "h-249-0-8",
+          "tile": "7s",
+          "tile_id": 24
+        },
+        {
+          "slot_id": "h-249-0-9",
+          "tile": "7s",
+          "tile_id": 24
+        },
+        {
+          "slot_id": "h-249-0-10",
+          "tile": "8s",
+          "tile_id": 25
+        },
+        {
+          "slot_id": "h-249-0-11",
+          "tile": "8s",
+          "tile_id": 25
+        },
+        {
+          "slot_id": "h-249-0-12",
+          "tile": "9s",
+          "tile_id": 26
+        }
+      ],
+      "last_tsumo_tile": null
+    },
+    "public": {
+      "bakaze": 27,
+      "discards": [
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 12,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 13,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 13,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 15,
+            "tsumogiri": false,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 11,
+            "tsumogiri": true,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 1,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 4,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 9,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 14,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 6,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": true,
+            "was_called": false
+          }
+        ],
+        [
+          {
+            "is_riichi_marker": false,
+            "tile": 10,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 5,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 7,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 11,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 11,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 0,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 8,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 3,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 12,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 13,
+            "tsumogiri": false,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 2,
+            "tsumogiri": true,
+            "was_called": false
+          },
+          {
+            "is_riichi_marker": false,
+            "tile": 13,
+            "tsumogiri": false,
+            "was_called": false
+          }
+        ]
+      ],
+      "dora_indicators": [],
+      "hand_counts": [
+        13,
+        14,
+        13,
+        13
+      ],
+      "honba": 0,
+      "kita_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "kyoku": 4,
+      "kyotaku": 0,
+      "last_dahai": [
+        0,
+        15
+      ],
+      "melds": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "oya": 3,
+      "pending_discard": null,
+      "revealed_hands": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "riichi_accepted": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "riichi_to_be_accepted": null,
+      "scores": [
+        -5,
+        -5,
+        15,
+        -5
+      ],
+      "seats": [
+        {
+          "kind": "human",
+          "name": "Player0",
+          "ready": true,
+          "seat": 0,
+          "user_id": "00000000-0000-0000-0000-000000000010"
+        },
+        {
+          "kind": "human",
+          "name": "Player1",
+          "ready": true,
+          "seat": 1,
+          "user_id": "00000000-0000-0000-0000-000000000011"
+        },
+        {
+          "kind": "human",
+          "name": "Player2",
+          "ready": true,
+          "seat": 2,
+          "user_id": "00000000-0000-0000-0000-000000000012"
+        },
+        {
+          "kind": "human",
+          "name": "Player3",
+          "ready": true,
+          "seat": 3,
+          "user_id": "00000000-0000-0000-0000-000000000013"
+        }
+      ],
+      "sichuan": {
+        "exchange_direction": 1,
+        "length": 4,
+        "opening_phase": "turn",
+        "round": 4,
+        "void_suits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "winners": [],
+        "winning_tiles": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "won": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "tiles_left": 0,
+      "tsumo_actor": 1,
+      "ura_indicators": []
+    },
+    "rules": {
+      "game_length_mode": "4",
+      "n_players": 4,
+      "rule_mode": "sichuan",
+      "sichuan": {
+        "discard_void_first": false,
+        "exchange_three": true,
+        "fan_cap": 4
+      }
+    },
+    "rules_version": "cloud-sichuan-20261018i",
+    "status": "playing",
+    "view_version": 2199023255810,
+    "viewer_seat": 0
+  },
+  "presentation": {
+    "cursor": "00000000-0000-0000-0000-0000000002bd:0:2199023255810",
+    "discard_hints": [],
+    "game_id": "00000000-0000-0000-0000-0000000002bd",
+    "hand_hint": {
+      "furiten": false,
+      "no_yaku": false,
+      "shanten": 0,
+      "waits": [
+        23,
+        26
+      ],
+      "yaku_waits": [
+        23,
+        26
+      ]
+    },
+    "settlement": null,
+    "view_version": 2199023255810,
+    "viewer_seat": 0
+  }
+}

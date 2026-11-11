@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "red": "satori_mahjong:block/furniture/red",
+    "felt": "satori_mahjong:block/furniture/felt",
+    "walnut": "satori_mahjong:block/furniture/walnut",
+    "leather": "satori_mahjong:block/furniture/leather",
+    "brass": "satori_mahjong:block/furniture/brass",
+    "steel": "satori_mahjong:block/furniture/steel",
+    "ivory": "satori_mahjong:block/furniture/ivory",
+    "jade": "satori_mahjong:block/furniture/jade",
+    "screen": "satori_mahjong:block/furniture/screen",
+    "light": "satori_mahjong:block/furniture/light",
+    "particle": "satori_mahjong:block/furniture/walnut"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        10.8,
+        0
+      ],
+      "to": [
+        16,
+        11.3,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        },
+        "north": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        }
+      }
+    }
+  ]
+}
